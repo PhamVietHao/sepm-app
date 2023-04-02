@@ -1,5 +1,6 @@
-import React from 'react'
-import './header.css'
+import React from 'react';
+import './header.css';
+import example from '../../components/images/example.jpg';
 
 function Header() {
   return (
@@ -10,7 +11,7 @@ function Header() {
             <button type="button">Get Started</button>
         </div>
         <div className='rise__header-image'>
-            <img/>
+            <img src={example} />
         </div>    
     </div>
   )
