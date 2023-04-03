@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/bruno-ace');
+
 .rise__header {
     display: flex;
 }
@@ -17,12 +19,15 @@
     font-size: 62px;
     line-height: 75px;
     letter-spacing: -0.04 em;
+    font-family: 'Bruno Ace', sans-serif;
+    color: white;
 }
 
 .rise__header-content p{
     font-weight: normal;
     font-size: 20px;
     line-height: 27px;
+    color: white;
 }
 
 .rise__header-content button{
@@ -38,6 +43,7 @@
     color: white;
     margin: 2rem 0;
     cursor: pointer;
+    border: none;
 }
 
 .rise__header-image{
@@ -52,3 +58,6 @@
     height: 100%;
 }
 
+.bold_RMIT{
+    color: #ff5e46;
+}
