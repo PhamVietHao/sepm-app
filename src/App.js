@@ -12,7 +12,7 @@ const App = () => {
         <Navbar/>
         <Header/>
       </div>
-      <div>
+      <div className='teaminfo'>
         <Teaminfo/>
       </div>
     </div>
