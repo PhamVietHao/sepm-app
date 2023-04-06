@@ -21,7 +21,7 @@ function teaminfo() {
         
         <div className='rise__teaminfo_member_section'>
           <div className='rise__teaminfo_member'>
-            <div className='profile_picture_ngoc'>
+            <div className='profile_picture'>
               <img src={Ngoc} />
             </div>
             <div className='profile_name_ngoc'>
@@ -33,7 +33,7 @@ function teaminfo() {
           </div>
 
           <div className='rise__teaminfo_member'>
-            <div className='profile_picture_thach'>
+            <div className='profile_picture'>
               <img src={Thach} />
             </div>
             <div className='profile_name_thach'>
@@ -45,7 +45,7 @@ function teaminfo() {
           </div>
 
           <div className='rise__teaminfo_member'>
-            <div className='profile_picture_quan'>
+            <div className='profile_picture'>
               <img src={Quan} />
             </div>
             <div className='profile_name_quan'>

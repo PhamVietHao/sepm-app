@@ -43,26 +43,12 @@
     font-size: 23px;
     line-height: 27px;  
 }
-.profile_picture{
+.profile_picture img{
     background-color: #ccd7e2;
     border-radius: 360px;
+    height: 300px;
 }
 
-.profile_picture_ngoc img{
-    background-color: #ccd7e2;
-    border-radius: 360px;
-    height: 200;
-}
-.profile_picture_thach img{
-    background-color: #ccd7e2;
-    border-radius: 360px;
-    height: 200;
-}
-.profile_picture_quan img{
-    background-color: #ccd7e2;
-    border-radius: 360px;
-    
-}
 .profile_name{
     margin: 1rem 3.6rem;
     font-weight:700;
