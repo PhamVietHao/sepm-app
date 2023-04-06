@@ -1,6 +1,9 @@
 import React from 'react'
 import './teaminfo.css'
 import Hao from '../../components/images/Hao.png';
+import Ngoc from '../../components/images/Ngoc.png';
+import Thach from '../../components/images/Thach.png';
+import Quan from '../../components/images/Quan.png';
 
 function teaminfo() {
   return (
@@ -18,14 +21,38 @@ function teaminfo() {
         
         <div className='rise__teaminfo_member_section'>
           <div className='rise__teaminfo_member'>
-            <div className='profile_picture'>
-              <img src={Hao} />
+            <div className='profile_picture_ngoc'>
+              <img src={Ngoc} />
             </div>
-            <div className='member_name'>
-              <h3>Phạm Viết Hào</h3>
+            <div className='profile_name_ngoc'>
+              <h3>Dương Vũ Thanh Ngọc</h3>
             </div>
-            <div className='member_sid'>
-              <p>s3891710</p>
+            <div className='profile_sid'>
+              <p>s3924496</p>
+            </div>
+          </div>
+
+          <div className='rise__teaminfo_member'>
+            <div className='profile_picture_thach'>
+              <img src={Thach} />
+            </div>
+            <div className='profile_name_thach'>
+              <h3>Ngô Trần Bảo Thạch</h3>
+            </div>
+            <div className='profile_sid'>
+              <p>s3927021</p>
+            </div>
+          </div>
+
+          <div className='rise__teaminfo_member'>
+            <div className='profile_picture_quan'>
+              <img src={Quan} />
+            </div>
+            <div className='profile_name_quan'>
+              <h3>Nguyễn Minh Quân</h3>
+            </div>
+            <div className='profile_sid'>
+              <p>s3927181</p>
             </div>
           </div>
 
@@ -33,34 +60,10 @@ function teaminfo() {
             <div className='profile_picture'>
               <img src={Hao} />
             </div>
-            <div className='member_name'>
+            <div className='profile_name'>
               <h3>Phạm Viết Hào</h3>
             </div>
-            <div className='member_sid'>
-              <p>s3891710</p>
-            </div>
-          </div>
-
-          <div className='rise__teaminfo_member'>
-            <div className='profile_picture'>
-              <img src={Hao} />
-            </div>
-            <div className='member_name'>
-              <h3>Phạm Viết Hào</h3>
-            </div>
-            <div className='member_sid'>
-              <p>s3891710</p>
-            </div>
-          </div>
-
-          <div className='rise__teaminfo_member'>
-            <div className='profile_picture'>
-              <img src={Hao} />
-            </div>
-            <div className='member_name'>
-              <h3>Phạm Viết Hào</h3>
-            </div>
-            <div className='member_sid'>
+            <div className='profile_sid'>
               <p>s3891710</p>
             </div>
           </div>
