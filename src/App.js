@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Header } from './components';
-import {Teaminfo} from './container'
+import {Teaminfo,Rmitbuildings} from './container'
 
 import './App.css';
 // 
@@ -14,6 +14,9 @@ const App = () => {
       </div>
       <div className='teaminfo'>
         <Teaminfo/>
+      </div>
+      <div className='buildings'>
+        <Rmitbuildings/>
       </div>
     </div>
   )
