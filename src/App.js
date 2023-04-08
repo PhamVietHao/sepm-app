@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Header } from './components';
-import {Teaminfo,Rmitbuildings} from './container'
+import {Teaminfo,Rmitbuildings, Display} from './container'
 
 import './App.css';
 // 
@@ -12,11 +12,17 @@ const App = () => {
         <Navbar/>
         <Header/>
       </div>
+      
       <div className='teaminfo'>
         <Teaminfo/>
       </div>
+      
       <div className='buildings'>
         <Rmitbuildings/>
+      </div>
+      
+      <div className='display'>
+        <Display/>
       </div>
     </div>
   )

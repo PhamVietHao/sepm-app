@@ -2,8 +2,8 @@ import React from 'react'
 import RMITlogo from '../../components/images/RMITlogo.png';
 import './rmitbuildings.css'
 function Rmitbuildings() {
-  return (
-    <div className='rise__rmitbuildings section__padding'>
+  return (  
+      <div className='rise__rmitbuildings section__padding'>
         <div className='rise__rmitbuildings-content'>
             <h1>RMIT SGS CAMPUS</h1>
             <hr/>
@@ -14,7 +14,7 @@ function Rmitbuildings() {
         <div className='rise__rmitbuildings-image'>
             <img src = {RMITlogo} />
         </div>
-    </div>
+      </div>
   )
 }
 
