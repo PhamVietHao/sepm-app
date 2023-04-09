@@ -1,0 +1,40 @@
+.rise__gamestory{
+    display: flex;
+}
+
+.rise__gamestory_image img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rise__gamestory_header{
+    margin: 10rem 11rem;
+}
+
+.rise__gamestory_header h3{
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    justify-content: center;
+    color: #FFFFFF;
+    margin: 1rem 0;
+}
+
+.rise__gamestory_header p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    /* or 136% */
+
+    text-align: justify;
+
+    color: #FFFFFF;
+}

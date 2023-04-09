@@ -1,0 +1,17 @@
+.rise__footer{
+    display: flex;
+    height: 85px;
+}
+
+.rise__footer_content{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 30px;
+
+    text-align: justify;
+
+    color: #FFFFFF;
+    margin: 1.5rem 5rem;
+}
