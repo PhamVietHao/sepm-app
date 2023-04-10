@@ -13,3 +13,53 @@
     height: 40%;
 }
 
+.rise_display_building_img img{
+    top: 250px;
+    position: relative;
+}
+
+.rise__display_modal1{
+    position: relative;
+}
+
+.rise__display_buildinginfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 90px;
+    
+}
+
+.rise__display_modal1 img{
+    height: auto;
+    width: 100%;
+}
+
+#seebtn{
+    background: #FF5E46;
+    border-radius: 20px;
+    width: 183px;
+    height: 53px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.rise__display_buildinginfo h3, h4{
+    margin:0.5rem 0;
+    font-family: 'Roboto';
+}
+
+.rise__display_buildinginfo h3{
+    font-weight: bolder;
+    font-size: 23px;
+    line-height: 27px;
+}
+
