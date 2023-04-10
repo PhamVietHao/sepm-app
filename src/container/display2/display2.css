@@ -1,0 +1,18 @@
+.rise__display{
+    display: flex;
+    justify-content: center;
+}
+
+.rise__display_buildings{
+    margin: 0 5rem;
+    
+    
+}
+
+.rise__display_modal1{
+    position:relative;
+    bottom: 250px;
+    
+}
+
+

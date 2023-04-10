@@ -4,12 +4,12 @@
 }
 
 .rise__display_buildings{
-    display: inline-block;
     margin: 0 6rem;
+    height: 70%;
 }
 
-.rise__display_modal1{
-    position:relative;
-    bottom: 250px;
-    
+
+.rise__display_building{
+    height: 40%;
 }
+
