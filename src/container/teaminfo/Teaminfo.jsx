@@ -4,10 +4,12 @@ import Hao from '../../components/images/Hao.png';
 import Ngoc from '../../components/images/Ngoc.png';
 import Thach from '../../components/images/Thach.png';
 import Quan from '../../components/images/Quan.png';
-
+import Facebook from '../../components/images/facebook.png';
+import Instagram from '../../components/images/instagram.png';
+import Linkedin from '../../components/images/linkedin.png';
 function teaminfo() {
   return (
-    <div>
+    <div  className='section__padding'>
         <div className='rise__teaminfo_section'>
           <div className='rise__teaminfo_header'>
             <h1>TEAM PROFILE</h1>
@@ -30,6 +32,11 @@ function teaminfo() {
             <div className='profile_sid'>
               <p>s3924496</p>
             </div>
+            <div className='social_media'>
+              <img src={Facebook} alt='facebook'/>             
+              <img src={Instagram} alt='instagram'/>                            
+              <img src={Linkedin}/>
+            </div>
           </div>
 
           <div className='rise__teaminfo_member'>
@@ -41,6 +48,11 @@ function teaminfo() {
             </div>
             <div className='profile_sid'>
               <p>s3927021</p>
+            </div>
+            <div className='social_media'>
+              <img src={Facebook} alt='facebook'/>             
+              <img src={Instagram} alt='instagram'/>                            
+              <img src={Linkedin}/>
             </div>
           </div>
 
@@ -54,17 +66,27 @@ function teaminfo() {
             <div className='profile_sid'>
               <p>s3927181</p>
             </div>
+            <div className='social_media'>
+              <img src={Facebook} alt='facebook'/>             
+              <img src={Instagram} alt='instagram'/>                            
+              <img src={Linkedin}/>
+            </div>
           </div>
 
           <div className='rise__teaminfo_member'>
             <div className='profile_picture'>
               <img src={Hao} />
             </div>
-            <div className='profile_name'>
+            <div className='profile_name_Hao'>
               <h3>Phạm Viết Hào</h3>
             </div>
             <div className='profile_sid'>
               <p>s3891710</p>
+            </div>
+            <div className='social_media'>
+              <img src={Facebook} alt='facebook'/>             
+              <img src={Instagram} alt='instagram'/>                            
+              <img src={Linkedin}/>
             </div>
           </div>
         </div>

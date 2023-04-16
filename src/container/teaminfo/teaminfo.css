@@ -40,33 +40,33 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 27px;  
 }
 .profile_picture img{
     background-color: #ccd7e2;
     border-radius: 360px;
-    height: 300px;
+    height: 200px;
+    margin: 1.2rem;
 }
 
 .profile_name{
-    margin: 1rem 3.6rem;
+    
     font-weight:700;
     
 }
 
 .profile_sid{
-    margin:0 6rem;
+    margin:0 4.5rem;
 }
 
-.profile_name_ngoc{
-    margin: 1rem ;
+.profile_name_Hao{
+    margin:0 2.8rem;
 }
 
-.profile_name_thach{
-    margin: 1rem 2rem;
-}
+.social_media{
+    justify-content: space-around;
+    display: flex;
+    margin: 0.5rem ;
 
-.profile_name_quan{
-    margin: 1rem 2rem;
 }
