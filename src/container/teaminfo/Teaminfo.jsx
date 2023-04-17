@@ -9,7 +9,7 @@ import Instagram from '../../components/images/instagram.png';
 import Linkedin from '../../components/images/linkedin.png';
 function teaminfo() {
   return (
-    <div  className='section__padding'>
+    <div id='TEAMPROFILE' className='section__padding'>
         <div className='rise__teaminfo_section'>
           <div className='rise__teaminfo_header'>
             <h1>TEAM PROFILE</h1>
@@ -26,7 +26,7 @@ function teaminfo() {
             <div className='profile_picture'>
               <img src={Ngoc} />
             </div>
-            <div className='profile_name_ngoc'>
+            <div className='profile_name'>
               <h3>Dương Vũ Thanh Ngọc</h3>
             </div>
             <div className='profile_sid'>
@@ -43,7 +43,7 @@ function teaminfo() {
             <div className='profile_picture'>
               <img src={Thach} />
             </div>
-            <div className='profile_name_thach'>
+            <div className='profile_name'>
               <h3>Ngô Trần Bảo Thạch</h3>
             </div>
             <div className='profile_sid'>
@@ -60,7 +60,7 @@ function teaminfo() {
             <div className='profile_picture'>
               <img src={Quan} />
             </div>
-            <div className='profile_name_quan'>
+            <div className='profile_name'>
               <h3>Nguyễn Minh Quân</h3>
             </div>
             <div className='profile_sid'>
@@ -77,7 +77,7 @@ function teaminfo() {
             <div className='profile_picture'>
               <img src={Hao} />
             </div>
-            <div className='profile_name_Hao'>
+            <div className='profile_name'>
               <h3>Phạm Viết Hào</h3>
             </div>
             <div className='profile_sid'>

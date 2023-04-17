@@ -3,7 +3,7 @@ import './gameintro.css'
 
 function Gameintro() {
   return (
-    <div className='rise__gameintro section__padding '>
+    <div id='OURGAME' className='rise__gameintro section__padding '>
         <div className='rise__gameintro_header'>
             GUARDIANS OF RMIT
             <hr/>

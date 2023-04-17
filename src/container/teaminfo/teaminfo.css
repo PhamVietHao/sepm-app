@@ -57,11 +57,12 @@
 }
 
 .profile_sid{
-    margin:0 4.5rem;
+    text-align: center;
 }
 
-.profile_name_Hao{
-    margin:0 2.8rem;
+.profile_name h3{
+    text-align: center;
+    width:100%
 }
 
 .social_media{
