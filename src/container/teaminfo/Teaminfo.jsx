@@ -35,7 +35,7 @@ function teaminfo() {
             <div className='social_media'>
               <img src={Facebook} alt='facebook'/>             
               <img src={Instagram} alt='instagram'/>                            
-              <img src={Linkedin}/>
+              <img src={Linkedin} alt='linkedin'/>
             </div>
           </div>
 
@@ -52,7 +52,7 @@ function teaminfo() {
             <div className='social_media'>
               <img src={Facebook} alt='facebook'/>             
               <img src={Instagram} alt='instagram'/>                            
-              <img src={Linkedin}/>
+              <img src={Linkedin} alt='linkedin'/>
             </div>
           </div>
 
@@ -69,7 +69,7 @@ function teaminfo() {
             <div className='social_media'>
               <img src={Facebook} alt='facebook'/>             
               <img src={Instagram} alt='instagram'/>                            
-              <img src={Linkedin}/>
+              <img src={Linkedin} alt='linkedin'/>
             </div>
           </div>
 
@@ -86,7 +86,7 @@ function teaminfo() {
             <div className='social_media'>
               <img src={Facebook} alt='facebook'/>             
               <img src={Instagram} alt='instagram'/>                            
-              <img src={Linkedin}/>
+              <img src={Linkedin} alt='linkedin'/>
             </div>
           </div>
         </div>
