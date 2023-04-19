@@ -44,9 +44,11 @@
 
 .rise__rmitbuildings-content hr {
     background: #FF5E46 ;
-    margin: 1rem 6.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
     border: 5px solid #FF5E46;  
-    width: 52%;
+    width: 30%;
 }
 
 

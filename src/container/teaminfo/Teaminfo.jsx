@@ -88,7 +88,10 @@ function teaminfo() {
               <img src={Instagram} alt='instagram'/>                            
               <img src={Linkedin} alt='linkedin'/>
             </div>
-          </div>
+          </div>         
+        </div>
+        <div className='rise__teaminfo_btn'>
+          <button type="button" id='seebtn'>Our goal</button>
         </div>
     </div>
   )
