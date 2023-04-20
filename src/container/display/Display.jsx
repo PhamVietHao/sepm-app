@@ -59,6 +59,22 @@ function Display() {
                 <h3>Beanland Building</h3>
                 <h4>Building 1</h4>
                 <button type="button" id='seebtn'>See more</button> 
+                <Modal className='modalBackground' show={show} onHide={handleClose}>
+                  <div className='modalContainer'>
+                  <Modal.Header closeButton>
+                    <Modal.Title className='title'>Modal heading</Modal.Title>
+                  </Modal.Header>
+                  <Modal.Body className='body'>Woohoo, you're reading this text in a modal!</Modal.Body>
+                  <Modal.Footer className='footer'>
+                    <Button variant="secondary" onClick={handleClose}>
+                      Close
+                    </Button>
+                    <Button variant="primary" onClick={handleClose}>
+                      Save Changes
+                    </Button>
+                  </Modal.Footer>
+                  </div>
+                </Modal>
               </div>
           </div>
       </div>  

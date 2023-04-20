@@ -1,4 +1,5 @@
-import React from 'react'
+import {React, useState} from 'react'
+import { Button, Modal } from 'react-bootstrap';
 // import './display2.css'
 import building89 from '../../components/images/building89.png';
 import building10 from '../../components/images/building10.png';
