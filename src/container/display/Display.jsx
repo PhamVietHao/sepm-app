@@ -1,7 +1,6 @@
 import {React, useState} from 'react'
 import './display.css'
 import { Button, Modal } from 'react-bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 
 import building1 from '../../components/images/building1.png';
 import building2 from '../../components/images/building2.png';
@@ -58,7 +57,7 @@ function Display() {
               <div className='rise__display_buildinginfo'>
                 <h3>Beanland Building</h3>
                 <h4>Building 1</h4>
-                <button type="button" id='seebtn'>See more</button> 
+                <button type="button" id='seebtn' onClick={handleShow}>See more</button> 
                 <Modal className='modalBackground' show={show} onHide={handleClose}>
                   <div className='modalContainer'>
                   <Modal.Header closeButton>

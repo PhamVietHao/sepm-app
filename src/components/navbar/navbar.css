@@ -11,6 +11,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    scroll-behavior: smooth;
 }
 .rise_navbar-links_logo{
     font-family: 'Bruno Ace';
