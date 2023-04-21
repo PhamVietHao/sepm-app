@@ -22,7 +22,7 @@ function Display() {
               <div className='rise__display_modal1'>
                 <img src={modal1}></img>
               </div>
-              <div className='rise__display_buildinginfo'>
+              <div className='rise__display_buildinginfo building_1'>
                 <h3>Beanland Building</h3>
                 <h4>Building 1</h4>
                 <button type="button" id='seebtn' onClick={handleShow}>See more</button>
@@ -54,7 +54,7 @@ function Display() {
               <div className='rise__display_modal1'>
                 <img src={modal2}></img>
               </div>
-              <div className='rise__display_buildinginfo'>
+              <div className='rise__display_buildinginfo building_2'>
                 <h3>Beanland Building</h3>
                 <h4>Building 1</h4>
                 <button type="button" id='seebtn' onClick={handleShow}>See more</button> 
