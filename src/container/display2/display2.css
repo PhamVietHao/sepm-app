@@ -1,18 +1,7 @@
-.rise__display{
-    display: flex;
-    justify-content: center;
+.building89 img{
+    right:100px;
 }
-
-.rise__display_buildings{
-    margin: 0 5rem;
-    
-    
+.building2nd{
+    bottom: 110px;
 }
-
-.rise__display_modal1{
-    position:relative;
-    bottom: 250px;
-    
-}
-
 

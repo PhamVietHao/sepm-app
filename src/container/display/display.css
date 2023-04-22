@@ -16,11 +16,12 @@
 .rise_display_building_img img{
     top: 150px;
     position: relative;
-    height:80%;
+    height:320px;
 }
 
-.rise__display_modal1{
-    height:80%;
+
+.rise__display_modal1 img{
+    height:500px;
     bottom: 90px;
     position: relative;
 }
@@ -29,20 +30,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;  
+    position: relative;
+}
+.building1st{
+    bottom:150px;
 }
 
-.building_1{
-    bottom:200px;
-}
-.building_2{
-    bottom: 212px;
-}
-
-.rise__display_modal1 img{
-    height: auto;
-    width: 100%;
-}
 
 #seebtn{
     background: #FF5E46;

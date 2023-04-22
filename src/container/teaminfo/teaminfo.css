@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Manrope:wght@300&family=Open+Sans&family=Roboto:wght@300;400;500&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Manrope:wght@300&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 .rise__teaminfo_section{
     flex: 1;
     display: flex;
@@ -11,7 +13,7 @@
     justify-content: center;
     font-family:'Roboto', sans-serif; 
     font-size: 20px;
-    font-weight: 600px;
+    font-weight: 100;
 
     
 }
@@ -31,9 +33,9 @@
     margin: 2rem 4rem;
 
     font-family:'Roboto', sans-serif;
-    font-weight: 1000;
     color: black;
     font-size: 22px;
+    font-weight: 1000;
 }
 
 .rise__teaminfo_member_section{    

@@ -1,6 +1,6 @@
 import {React, useState} from 'react'
 import { Button, Modal } from 'react-bootstrap';
-// import './display2.css'
+import './display2.css'
 import building89 from '../../components/images/building89.png';
 import building10 from '../../components/images/building10.png';
 
@@ -20,12 +20,12 @@ function Display2() {
             <div className='rise_display_building_img'>
             <img src={building89}></img>
             </div>
-              <div className='rise__display_modal1'>
+              <div className='rise__display_modal1 building89'>
                 <img src={modal3}></img>
               </div>
-              <div className='rise__display_buildinginfo'>
-                <h3>Beanland Building</h3>
-                <h4>Building 1</h4>
+              <div className='rise__display_buildinginfo building2nd'>
+                <h3>SSET Technical and Residential Building</h3>
+                <h4>Building 8 and Building 9</h4>
                 <button type="button" id='seebtn' onClick={handleShow}>See more</button>
                 <Modal className='modalBackground' show={show} onHide={handleClose}>
                   <div className='modalContainer'>
@@ -55,9 +55,9 @@ function Display2() {
               <div className='rise__display_modal1'>
                 <img src={modal4}></img>
               </div>
-              <div className='rise__display_buildinginfo'>
-                <h3>Beanland Building</h3>
-                <h4>Building 1</h4>
+              <div className='rise__display_buildinginfo building2nd'>
+                <h3>Recreation and Events Complex</h3>
+                <h4>Building 10</h4>
                 <button type="button" id='seebtn' onClick={handleShow}>See more</button>
                 <Modal className='modalBackground' show={show} onHide={handleClose}>
                   <div className='modalContainer'>
