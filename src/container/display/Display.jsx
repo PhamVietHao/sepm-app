@@ -19,7 +19,7 @@ function Display() {
             <div className='rise_display_building_img '>
             <img src={building1}></img>
             </div>
-              <div className='rise__display_modal1'>
+              <div className='rise__display_modal1 building__1'>
                 <img src={modal1}></img>
               </div>
               <div className='rise__display_buildinginfo building1st'>
