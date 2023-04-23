@@ -37,7 +37,25 @@
     line-height: 23px;
     color: #FFFFFF;
     cursor: pointer;
-    margin: 0 4rem;
-    
-    
+    margin: 0 4rem;   
+    position: relative;
 }
+
+.rise_navbar-links_container p::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color:  #ff4820;
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+
+}
+
+.rise_navbar-links_container p:hover::before,
+rise_navbar-links_container p:focus::before{
+    transform: scaleX(1);
+}
+
