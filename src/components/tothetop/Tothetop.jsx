@@ -32,7 +32,7 @@ function Tothetop() {
     <div className="wrapper_bg">
       {isVisible && (
         <div className="top-btn" onClick={goToBtn}>
-          <FaArrowUp className="arrow"/>
+          <FaArrowUp className="top-btn--icon"/>
         </div>
       )}
     </div>
@@ -40,3 +40,4 @@ function Tothetop() {
 }
 
 export default Tothetop
+

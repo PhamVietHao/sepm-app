@@ -21,22 +21,22 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    /* animation: arrowgo 1.2s; */
-    /* linear infinite alternate-reverse */
+    scroll-behavior: smooth;
+    /* animation: arrowgo 1.2s linear infinite alternate-reverse; */
 };
 
-.top-btn:hover{
-  animation: arrowgo 1.2s infinite;
+.top-btn--icon{
+  animation: gototop 1.2s linear infinite alternate-reverse;
 }
 
-
 @keyframes arrowgo {
-    0% {
-      transform: scale(1rem);
-    }
-    100% {
-      transform: scale(2rem);
-    }
+  0% {
+    transform: translateY(-0.5rem);
   }
+  100% {
+    transform: translateY(1rem);
+  }
+}
+
 
 
