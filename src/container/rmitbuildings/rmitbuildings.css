@@ -23,7 +23,7 @@
 .rise__rmitbuildings-content h1{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 500;
     font-size: 40px;
     line-height: 47px;
     /* identical to box height */
@@ -35,7 +35,6 @@
 .rise__rmitbuildings-content p{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 1000;
     font-size: 22px;
     line-height: 30px;
     /* or 136% */
