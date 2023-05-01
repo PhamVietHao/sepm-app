@@ -74,6 +74,7 @@
    background: rgba(0, 0, 0, 0.5);
    opacity: 3;
    padding-top: 15%;
+   
 }
 
 .modalContainer{
@@ -81,5 +82,17 @@
     height: 70%;
     background-color: #FFFFFF;
     margin: auto;
+    animation: droptop 0.5s linear;
     
+}
+
+@keyframes droptop{
+    0%{
+        transform: translateY(-100%) scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%) scale(1);
+        opacity: 1;
+    }
 }
