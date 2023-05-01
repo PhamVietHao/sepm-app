@@ -64,12 +64,7 @@ function Display() {
                   </Modal.Header>
                   <Modal.Body className='body'>Woohoo, you're reading this text in a modal!</Modal.Body>
                   <Modal.Footer className='modal_footer'>
-                    <Button variant="secondary" onClick={handleClose2}>
-                      Close
-                    </Button>
-                    <Button variant="primary" onClick={handleClose2}>
-                      Save Changes
-                    </Button>
+                    <button id='modal_btn' onClick={handleClose2}> Close </button>
                   </Modal.Footer>
                   </div>
                 </Modal>

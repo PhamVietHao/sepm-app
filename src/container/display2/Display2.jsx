@@ -32,18 +32,13 @@ function Display2() {
                 <h4>Building 8 and Building 9</h4>
                 <button type="button" id='seebtn' onClick={handleShow}>See more</button>
                 <Modal className='modalBackground' show={show} onHide={handleClose}>
-                  <div className='modalContainer'>
+                  <div className='modalContainer section__padding'>
                   <Modal.Header closeButton>
                     <Modal.Title className='title'>Modal heading</Modal.Title>
                   </Modal.Header>
                   <Modal.Body className='body'>Woohoo, you're reading this text in a modal!</Modal.Body>
                   <Modal.Footer className='modal_footer'>
-                    <Button variant="secondary" onClick={handleClose}>
-                      Close
-                    </Button>
-                    <Button variant="primary" onClick={handleClose}>
-                      Save Changes
-                    </Button>
+                    <button id='modal_btn' onClick={handleClose}> Close </button>
                   </Modal.Footer>
                   </div>
                 </Modal>
@@ -64,18 +59,13 @@ function Display2() {
                 <h4>Building 10</h4>
                 <button type="button" id='seebtn' onClick={handleShow2}>See more</button>
                 <Modal className='modalBackground' show={show2} onHide={handleClose2}>
-                  <div className='modalContainer'>
+                  <div className='modalContainer section__padding'>
                   <Modal.Header closeButton>
                     <Modal.Title className='title'>Modal heading</Modal.Title>
                   </Modal.Header>
                   <Modal.Body className='body'>Woohoo, you're reading this text in a modal!</Modal.Body>
                   <Modal.Footer className='modal_footer'>
-                    <Button variant="secondary" onClick={handleClose2}>
-                      Close
-                    </Button>
-                    <Button variant="primary" onClick={handleClose2}>
-                      Save Changes
-                    </Button>
+                    <button id='modal_btn' onClick={handleClose2}> Close </button>
                   </Modal.Footer>
                   </div>
                 </Modal>
