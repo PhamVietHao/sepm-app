@@ -79,10 +79,13 @@
 
 .modalContainer{
     width:70%;
-    height: 70%;
     background-color: #FFFFFF;
     margin: auto;
     animation: droptop 0.5s linear;
+    max-height: 80vh; 
+    overflow-y: auto;
+    font-family: 'Roboto' ;
+    font-style: normal;
     
 }
 
@@ -95,4 +98,40 @@
         transform: translateY(0%) scale(1);
         opacity: 1;
     }
+
+}
+
+.modal-header{
+    display: flex !important;
+    flex-direction: row;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    margin: 1rem 0;
+    border-bottom: #FF5E46 solid 5px;
+}
+
+.modal__btn_section{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right:0;
+}
+
+#modal_btn{
+    border: none;
+}
+
+.modal_body h3{
+    font-weight: 400;
+}
+.modal_body p{
+    font-weight: 400;
+    margin: 1rem ;
+}
+
+.modal_body li{
+    font-weight: 400;
+    margin: 1rem ;
 }
