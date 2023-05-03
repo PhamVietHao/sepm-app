@@ -1,6 +1,6 @@
 import {React, useState} from 'react'
 import './display.css'
-import { Button, Modal } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 
 import building1 from '../../components/images/building1.png';
 import building2 from '../../components/images/building2.png';
