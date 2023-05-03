@@ -40,11 +40,11 @@
 
 #seebtn{
     background: #FF5E46;
-    border-radius: 20px;
+    border-radius: 5px;
     width: 183px;
     height: 53px;
     border: none;
-
+    position: relative ;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -52,6 +52,44 @@
     line-height: 24px;
 
     color: #FFFFFF;
+}
+
+#seebtn:hover{
+    background:transparent ;
+    color: #FF5E46;
+    
+}
+
+#seebtn::before, #seebtn::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box ;
+    transition: top 0.5s, left 0.5s;
+    
+
+}
+#seebtn::before{
+    border-left:2px solid #FF5E46  ;
+    border-top:2px solid #FF5E46  ;
+    border-radius: 5px;
+}
+#seebtn::after{
+    border-right:2px solid #FF5E46  ;
+    border-bottom:2px solid #FF5E46  ;
+    border-radius: 5px;
+}
+
+#seebtn:hover::before{
+    top:-5px;
+    left: -15px;
+}
+#seebtn:hover::after{
+    top: 5px;
+    left: 15px;
 }
 
 .rise__display_buildinginfo h3, h4{
