@@ -124,6 +124,7 @@
     overflow-y: auto;
     font-family: 'Roboto' ;
     font-style: normal;
+    position: relative;
     
 }
 
@@ -152,7 +153,6 @@
 
 .modal__btn_section{
     display: flex;
-    justify-content: flex-end;
     position: absolute;
     right:0;
 }

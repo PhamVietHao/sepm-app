@@ -1,5 +1,6 @@
 import {React, useState} from 'react'
 import { Modal } from 'react-bootstrap';
+import { FaArrowRight, FaArrowLeft} from "react-icons/fa";
 
 import './display2.css'
 
@@ -61,7 +62,7 @@ function Display2() {
                           <li>Fourth floor: Besides the classroom on the fourth floor, there are 2 storage rooms next to each other. One of the stores is student services while the other one is design. There are also two offices for staff next to the elevator.</li>
                           <li>Fifth floor and sixth floor: These floors are the staff only floor. Students are not allowed to enter this area.</li>
                       </ul>
-                      <button id='B9_btn' onClick={()=> {handleChange()}}>Show more</button>
+                      <button id='B9_btn' onClick={()=> {handleChange()}}>Building 9  <span><FaArrowRight/></span></button>
                     </Modal.Body>
                     
                     <Modal.Footer className='modal_footer'>
@@ -88,11 +89,11 @@ function Display2() {
                           <li>The first floor: The first floor is the one that is the busiest. The first floor of this structure is where Nine Restaurant is located. It is highly advised for students who want to eat some cuisine to do so here. The other section is reserved for residents only, save from Nine restaurants. The amusement room, where students can play some pool and other table games, is on your right as you enter the building. The office and two conference rooms are on the left. Moreover, this floor includes a laundry facility.</li>
                           <li>Second floor, third floor, fourth floor, fifth floor and sixth floor: all of this floor are filled with dorm rooms. On level 2 and 3 there are 20 beds on these floor while on level 4, 5 and 6 there are 21 beds on each floor.</li>
                       </ul>
-                      <button id='B9_btn'
+                      <button id='B8_btn'
                         onClick={() => {
                           handleClose3();
                           handleShow();
-                        }}>Close</button>                    
+                        }}><span><FaArrowLeft/></span>Building 8</button>                    
                     </Modal.Body>
                     
                     <Modal.Footer className='modal_footer'>
