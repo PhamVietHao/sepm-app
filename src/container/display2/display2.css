@@ -12,11 +12,13 @@
     position: absolute;
     right:0;
     margin-right: 5rem;
-    width: 130px;
+    width: 160px;
     height: 60px;
-    color: white;
-    background-color: #FF5E46;
+    color: #FF5E46;
     border: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 #B9_btn span{
@@ -38,11 +40,13 @@
     position: absolute;
     left:0;
     margin-left: 5rem;
-    width: 130px;
+    width: 160px;
     height: 60px;
-    color: white;
-    background-color: #FF5E46;
+    color: #FF5E46;
     border: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 #B8_btn span{
