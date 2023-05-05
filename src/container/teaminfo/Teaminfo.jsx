@@ -100,11 +100,11 @@ function Teaminfo() {
           <button type="button" id='seebtn' onClick={handleShow}>Our goal</button>
           <Modal className='modalBackground' show={show} onHide={handleClose}>
                   <div className='modalContainer section__padding'>
+                  <div className='modal__btn_section'>
+                    <button id='modal_btn' onClick={handleClose}><span>X</span></button>                      
+                  </div>
                   <Modal.Header>
                     <Modal.Title className='title'>OUR GOAL</Modal.Title>
-                    <div className='modal__btn_section'>
-                      <button id='modal_btn' onClick={handleClose}> X </button>                      
-                    </div>
                   </Modal.Header>
                   <Modal.Body className='modal_body'>
                     <h3>Team name</h3>

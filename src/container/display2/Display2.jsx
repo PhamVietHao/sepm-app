@@ -1,6 +1,6 @@
 import {React, useState} from 'react'
 import { Modal } from 'react-bootstrap';
-import { FaArrowRight, FaArrowLeft} from "react-icons/fa";
+import { FaArrowRight, FaArrowLeft, FaRegTimesCircle} from "react-icons/fa";
 
 import './display2.css'
 
@@ -44,11 +44,11 @@ function Display2() {
                 <button type="button" id='seebtn' onClick={handleShow}>See more</button>
                 <Modal className='modalBackground' show={show} onHide={handleClose}>
                   <div className='modalContainer section__padding'>
-                    <Modal.Header closeButton>
+                  <div className='modal__btn_section'>
+                    <button id='modal_btn' onClick={handleClose}><span>X</span></button>                      
+                  </div>
+                    <Modal.Header>
                       <Modal.Title className='title'>SSET Technical Building</Modal.Title>
-                      <div className='modal__btn_section'>
-                        <button id='modal_btn' onClick={handleClose}> X </button>                      
-                      </div>
                     </Modal.Header>
                     
                     <Modal.Body className='modal_body'>
@@ -72,13 +72,12 @@ function Display2() {
                 </Modal>
                 
                 <Modal className='modalBackground' show={show3} onHide={handleClose3}>
-                  <div className='modalContainer section__padding'>                  
-                  
+                  <div className='modalContainer section__padding'>
+                  <div className='modal__btn_section'>
+                    <button id='modal_btn' onClick={handleClose3}><span>X</span></button>                      
+                  </div>                                    
                     <Modal.Header closeButton>                    
-                      <Modal.Title className='title'>Residential Building</Modal.Title>
-                      <div className='modal__btn_section'>
-                        <button id='modal_btn' onClick={handleClose3}> X </button>                      
-                      </div>                  
+                      <Modal.Title className='title'>Residential Building</Modal.Title>                
                     </Modal.Header>
                     
                     <Modal.Body className='modal_body'>
@@ -125,6 +124,9 @@ function Display2() {
                 
                 <Modal className='modalBackground' show={show2} onHide={handleClose2}>
                   <div className='modalContainer section__padding'>
+                  <div className='modal__btn_section'>
+                    <button id='modal_btn' onClick={handleClose2}><span>X</span></button>                      
+                  </div>
                     <Modal.Header closeButton>
                       <Modal.Title className='title'>Recreation and Events Complex</Modal.Title>
                       <div className='modal__btn_section'>

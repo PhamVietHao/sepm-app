@@ -1,4 +1,5 @@
 import {React, useState} from 'react'
+import {FaRegTimesCircle} from "react-icons/fa";
 import './display.css'
 import { Modal } from 'react-bootstrap';
 
@@ -32,11 +33,11 @@ function Display() {
                 <button type="button" id='seebtn' onClick={handleShow}>See more</button>
                 <Modal className='modalBackground' show={show} onHide={handleClose}>
                   <div className='modalContainer section__padding'>
+                  <div className='modal__btn_section'>
+                    <button id='modal_btn' onClick={handleClose}><span>X</span></button>                      
+                  </div>
                   <Modal.Header>
                     <Modal.Title className='title'>BEANLAND BUILDING</Modal.Title>
-                    <div className='modal__btn_section'>
-                      <button id='modal_btn' onClick={handleClose}> X </button>                      
-                    </div>
                   </Modal.Header>
                   <Modal.Body className='modal_body'>
                     <h3>Introduction</h3>
@@ -73,11 +74,11 @@ function Display() {
                 <button type="button" id='seebtn' onClick={handleShow2}>See more</button> 
                 <Modal className='modalBackground' show={show2} onHide={handleClose2}>
                   <div className='modalContainer section__padding'>
+                  <div className='modal__btn_section'>
+                    <button id='modal_btn' onClick={handleClose2}><span>X</span></button>                      
+                  </div>
                   <Modal.Header closeButton>
                     <Modal.Title className='title'>ACADEMIC BUILDING 2</Modal.Title>
-                    <div className='modal__btn_section'>
-                      <button id='modal_btn' onClick={handleClose2}> X </button>                      
-                    </div>
                   </Modal.Header>
                   <Modal.Body className='modal_body'>
                     <h3>Introduction</h3>

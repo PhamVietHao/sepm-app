@@ -155,12 +155,31 @@
     display: flex;
     position: absolute;
     right:0;
+    top:0;
+    margin: 2rem 4rem;
 }
 
 #modal_btn{
     border: none;
+    background-color: #FFFFFF;
 }
 
+#modal_btn:hover span{
+    background-color: #FF5E46;
+    color: #FFFFFF;
+}
+#modal_btn span{
+    display: flex;
+    font-size: 20px;
+    color: #FF5E46;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 30px;
+    height:30px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
 .modal_body h3{
     font-weight: 400;
 }
