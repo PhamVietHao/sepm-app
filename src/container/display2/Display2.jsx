@@ -66,7 +66,7 @@ function Display2() {
                     </Modal.Body>
                     
                     <Modal.Footer className='modal_footer'>
-                      <button id='modal_btn' onClick={handleClose}> Close </button>
+                      <button id='modal_btn_footer' onClick={handleClose}> Close </button>
                     </Modal.Footer>               
                   </div>
                 </Modal>
@@ -96,7 +96,7 @@ function Display2() {
                     </Modal.Body>
                     
                     <Modal.Footer className='modal_footer'>
-                      <button id='modal_btn' onClick={handleClose}> Close </button>
+                      <button id='modal_btn_footer' onClick={handleClose}> Close </button>
                     </Modal.Footer>
                   
                   </div>
@@ -145,7 +145,7 @@ function Display2() {
                     </Modal.Body>
                     
                     <Modal.Footer className='modal_footer'>
-                      <button id='modal_btn' onClick={handleClose2}> Close </button>                   
+                      <button id='modal_btn_footer' onClick={handleClose2}> Close </button>                   
                     </Modal.Footer>
                   
                   </div>

@@ -192,3 +192,25 @@
     font-weight: 400;
     margin: 1rem ;
 }
+
+.modal_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    font-weight: 500;
+    margin-top: 5.5rem;
+}
+
+#modal_btn_footer{
+    width: 130px;
+    height: 60px;
+    color: white;
+    background-color: #FF5E46;
+    border: none;
+}
+
+#modal_btn_footer:hover{
+    background-color: white;
+    color: #FF5E46;
+    border: 2px solid #FF5E46 ;
+}
