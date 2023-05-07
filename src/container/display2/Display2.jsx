@@ -96,7 +96,7 @@ function Display2() {
                     </Modal.Body>
                     
                     <Modal.Footer className='modal_footer'>
-                      <button id='seebtn' onClick={handleClose}> Close </button>
+                      <button id='seebtn' onClick={handleClose3}> Close </button>
                     </Modal.Footer>
                   
                   </div>
@@ -129,9 +129,6 @@ function Display2() {
                   </div>
                     <Modal.Header closeButton>
                       <Modal.Title className='title'>Recreation and Events Complex</Modal.Title>
-                      <div className='modal__btn_section'>
-                        <button id='modal_btn' onClick={handleClose2}> X </button>                      
-                      </div>
                     </Modal.Header>
                     
                     <Modal.Body className='modal_body'>

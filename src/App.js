@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Header, Tothetop } from './components';
-import {Teaminfo, Rmitbuildings, Display, Gameintro, Gamestory, Footer, Display2, Gameguide, Event} from './container'
+import {Teaminfo, Rmitbuildings, Display, Gameintro, Gamestory, Footer, Display2, Gameguide} from './container'
 
 import './App.css';
 // 
@@ -34,9 +34,6 @@ const App = () => {
         <div className='footer'>
           <Footer/>
         </div>
-      </div>
-      <div>
-        <Event/>
       </div>
     </div>
   )
