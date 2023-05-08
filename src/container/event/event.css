@@ -13,6 +13,7 @@
     transition: 0.3s;
     animation: ease-in-out;
     border-radius: 20px;
+    margin: 0 3rem;
 
 }
 .rise__event_head{
@@ -64,5 +65,10 @@
 
 .rise_event_info p{
     display: flex;
-    margin: ;
+    margin: 0.5rem 0;
+}
+
+.rise__event_container{
+    display: flex;
+    flex-direction: row;
 }
