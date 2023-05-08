@@ -9,7 +9,7 @@
     width: 350px;
     overflow: hidden;
     box-shadow: 0px 0px 15px -5px;
-    height: 500px;
+    height: 540px;
     transition: 0.3s;
     animation: ease-in-out;
     border-radius: 20px;
@@ -61,11 +61,13 @@
 .rise_bolddate{
     display: flex;
     width: 60%;
+    color: #FF5E46;
+    font-weight: 500;
 }
 
 .rise_event_info p{
     display: flex;
-    margin: 0.5rem 0;
+    margin: 0.7rem 0;
 }
 
 .rise__event_container{

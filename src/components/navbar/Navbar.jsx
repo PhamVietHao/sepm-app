@@ -9,8 +9,8 @@ const Navbar = () => {
         <div className='rise_navbar-links_container'>
           <p><a href="#TEAMPROFILE">TEAM PROFILE</a></p>
           <p><a href="#ABOUTCAMPUS">ABOUT CAMPUS</a></p>
-          <p><a href="#OURGAME">OUR GAME</a></p>
           <p><a href="#EVENT">EVENT</a></p>
+          <p><a href="#OURGAME">OUR GAME</a></p>
         </div>        
       </div>
     </div>
