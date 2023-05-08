@@ -1,5 +1,6 @@
-import {React, useState} from 'react'
+import {React, useState, useEffect} from 'react'
 import { Modal } from 'react-bootstrap';
+import Aos from 'aos';
 import './teaminfo.css'
 import Hao from '../../components/images/Hao.png';
 import Ngoc from '../../components/images/Ngoc.png';
@@ -14,6 +15,10 @@ function Teaminfo() {
   const handleClose = () => setShow(false);  
   const handleShow = () => setShow(true);
   
+  useEffect(()=>{
+    Aos.init({duration:3000})
+  },[])
+
   return (
     <div id='TEAMPROFILE' className='section__padding'>
         <div className='rise__teaminfo_section'>
@@ -27,7 +32,7 @@ function Teaminfo() {
           <p>We are team R.I.S.E (RMIT Innovative and Strategic Entrepreneurs) from class group 2. Our team name stands for RMIT Innovative and Strategic Entrepreneurs, since we are . Our team consists of 4 people who are Duong Vu Thanh Ngoc, Ngo Tran Bao Thach, Nguyen Minh Quan and Pham Viet Hao. Although all members of our team are pursuing the bachelor of Information Technology, we have different minors. Ngoc is studying Web Development, Hao’s learning path is Cloud Development, Quan’s minor is Artificial Intelligence and Thach is following the learning path of Data Analytics. Despite our differences, we share the same targets and goals in this course, which is to create a product to help RMIT students, lecturers and visitors as well as improve the reputation of RMIT University.</p>
         </div>
         
-        <div className='rise__teaminfo_member_section'>
+        <div className='rise__teaminfo_member_section' data-aos="fade-right">
           <div className='rise__teaminfo_member'>
             <div className='profile_picture'>
               <img src={Ngoc} />

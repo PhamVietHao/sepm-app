@@ -1,0 +1,68 @@
+.rise__event{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+.rise__event_card{
+    width: 350px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    height: 500px;
+    transition: 0.3s;
+    animation: ease-in-out;
+    border-radius: 20px;
+
+}
+.rise__event_head{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rise__event_head h1{
+    margin: 0.5rem 0;
+}
+
+.rise__event_head p{
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+.rise__event_card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px -5px;
+}
+
+.rise__event_header{
+    background-color: #FF5E46;
+    color: white;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+}
+.rise__event_header h3{
+    position: relative;
+}
+
+.rise_event_info{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    flex-direction: column;    
+}
+
+.rise_bolddate{
+    display: flex;
+    width: 60%;
+}
+
+.rise_event_info p{
+    display: flex;
+    margin: ;
+}
