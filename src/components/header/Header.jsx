@@ -17,7 +17,7 @@ function Header() {
           1050, 
           'Game and Chatbot', 
           1100,
-          'Game and Chatbot feartures.',
+          'Game and Chatbot features.',
           1150,
           '',
           () => {
@@ -30,7 +30,7 @@ function Header() {
         // style={{ fontSize: '2em', display: 'inline-block' }}
       />
             </p>
-            <button type="button">Get Started</button>
+            <button type="button" id='seebtn'>Get Started</button>
         </div>
         <div className='rise__header-image'>
             <img src={shield} />

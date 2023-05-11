@@ -5,7 +5,8 @@ function Event() {
     <div id="EVENT" className='rise__event section__padding'>
         <div className='rise__event_head'>
           <h1>EVENT</h1>
-          <p>This section contain all of the important date through out the year of 2023.</p>
+          <hr/>
+          <p>This section contain all of the important dates through out the year of 2023.</p>
         </div>
         <div className='rise__event_container'>
           <div className='rise__event_card'>

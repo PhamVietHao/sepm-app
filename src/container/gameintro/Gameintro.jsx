@@ -1,9 +1,15 @@
-import React from 'react'
+import {React, useEffect} from 'react'
 import './gameintro.css'
+import Aos from 'aos';
 
 function Gameintro() {
+  
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
+
   return (
-    <div id='OURGAME' className='rise__gameintro section__padding '>
+    <div id='OURGAME' className='rise__gameintro section__padding ' data-aos="fade-up">
         <div className='rise__gameintro_header'>
             GUARDIANS OF RMIT
             <hr/>
