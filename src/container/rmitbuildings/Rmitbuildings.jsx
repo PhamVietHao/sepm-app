@@ -5,7 +5,7 @@ import Aos from 'aos';
 
 function Rmitbuildings() {
   useEffect(()=>{
-      Aos.init({duration:3000})
+      Aos.init({duration:1000})
   },[])
   return (  
       <div id='ABOUTCAMPUS' className='rise__rmitbuildings section__padding'>

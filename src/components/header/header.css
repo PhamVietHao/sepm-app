@@ -78,3 +78,11 @@
         transform: translateY(-20px);
     }
 }
+ 
+@media screen and (max-width:600px) 
+{
+.rise__header-content h1{
+        
+   } 
+}
+

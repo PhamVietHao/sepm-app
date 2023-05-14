@@ -6,7 +6,7 @@
     font-family: 'Roboto';
 }
 .rise__event_card{
-    width: 350px;
+    width: 330px;
     overflow: hidden;
     box-shadow: 0px 0px 15px -5px;
     height: 540px;
@@ -83,3 +83,4 @@
     width:10%;
     border: 5px solid #FF5E46;
 }
+
