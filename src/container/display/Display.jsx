@@ -1,5 +1,5 @@
 import {React, useState} from 'react'
-import {FaRegTimesCircle} from "react-icons/fa";
+import {FaAngleDoubleDown, FaAngleDoubleUp} from "react-icons/fa";
 import './display.css'
 import { Modal } from 'react-bootstrap';
 
@@ -8,6 +8,10 @@ import building2 from '../../components/images/building2.png';
 
 import modal1 from '../../components/images/modal1.png';
 import modal2 from '../../components/images/modal2.png';
+
+import f1_1 from '../../components/building_images/floor1_1.jpg';
+import f1_2 from '../../components/building_images/floor1_2.jpg';
+
 function Display() {
 
   const [collapse,setCollapse] = useState(false)
@@ -79,18 +83,21 @@ function Display() {
                       <li>First floor: The first floor consists of the core departments in RMIT University such as RMIT Connect, Job Shop, Student Council, Offices, etc and other facilities like Media Studio, Bowen Theatre, Data Centre, Stationary Shop, Computer Lab, Canteen, etc. Students can contact most of the university’s offices on this level and there are classes organized in the theaters or rooms here as well. Students can also enjoy their lunch break at the canteen, which offers many choices since there are three restaurants here</li>
                       <div className='more_less_section'>
                         <button id='more_less_btn' onClick={() => setCollapse1(!collapse1)}>
-                        {collapse1 ? "show": "Hide"}
+                        {collapse1 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                         </button>
                         {collapse1 &&                           
+                          
                           <div className='more_less_section'>
-                            <h3>Building 1 introduction</h3>                           
+                            <img width={600} height={400} src={f1_1}></img> 
+                            <img width={600} height={400} src={f1_2}></img>                         
                           </div>}                   
+                      
                       </div>
                       
                       <li>Second floor: The second floor of this building mainly consists of classrooms and computer labs in the area behind the elevator. Classes usually take place in this area and students can use the map to navigate. Facing the elevator is the gallery displaying students’ art works, and the Melbourne Theatre also located in that area together with a cafeteria and some rooms for meetings. Moreover, Melbourne Theatre is a two-floor theatre, so it can hold up to a hundred students.</li>
                       <div className='more_less_section'>
                         <button id='more_less_btn' onClick={() => setCollapse2(!collapse2)}>
-                        {collapse2 ? "show": "Hide"}
+                        {collapse2 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                         </button>
                         {collapse2 &&                           
                           <div className='more_less_section'>
@@ -101,7 +108,7 @@ function Display() {
                       <li>Third Floor: The third floor has a relatively identical layout as the second floor. The area behind the elevators are the classrooms but the facing area is the Beanland Library. In the library, there are some rooms for group meetings, so students can book a place here to have team meetings and group discussions. The Melbourne Theatre is also located on this level because it uses two floors. Most students access this floor for the Beanland library and for searching books since it has more book shelves or they go to classes.</li>
                       <div className='more_less_section'>
                         <button id='more_less_btn' onClick={() => setCollapse3(!collapse3)}>
-                        {collapse3 ? "show": "Hide"}
+                        {collapse3 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                         </button>
                         {collapse3 &&                           
                           <div className='more_less_section'>
@@ -112,7 +119,7 @@ function Display() {
                       <li>Fourth Floor: The fourth floor has the exact same structure and layout as the third one. The classrooms are on one side and the Beanland library is located on the other side since the Beanland library is a two-storey building. Most of the time, students go to this floor for studying as there are computer labs here or they are here for group meetings in the library since there are more tables and chairs on this second floor of the library and there are more private rooms in addition.</li>
                       <div className='more_less_section'>
                         <button id='more_less_btn' onClick={() => setCollapse4(!collapse4)}>
-                        {collapse4 ? "show": "Hide"}
+                        {collapse4 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                         </button>
                         {collapse4 &&                           
                           <div className='more_less_section'>
@@ -123,7 +130,7 @@ function Display() {
                       <li>Fifth Floor: The fifth floor only contains classrooms since it is exclusively for the School of English & University Pathways (SEUP) of RMIT University. The head office is the area facing the elevator, and the remaining area is for classrooms.</li>
                       <div className='more_less_section'>
                         <button id='more_less_btn' onClick={() => setCollapse5(!collapse5)}>
-                        {collapse5 ? "show": "Hide"}
+                        {collapse5 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                         </button>
                         {collapse5 &&                           
                           <div className='more_less_section'>
@@ -174,7 +181,7 @@ function Display() {
                     <p>This building is also considered the most crucial department in RMIT University because students from all schools study here and there are also offices for each school here. Furthermore, this building has five floors in total and each specific floor is built for a specific school. There are four schools in RMIT University: School of Business & Management (SBM), School of Communication & Design (SCD), School of Science, Engineering & Technology (SSET) and School of English & University Pathways (SEUP). Three former schools have their head office in this building and SEUP has their head office in building 1. In addition, there is a basement for parking under this building and there is one elevator in this building that can bring people to the basement.</p>
                     <div className='more_less_section'>
                       <button id='more_less_btn' onClick={() => setCollapse(!collapse)}>
-                      {collapse ? "show": "Hide"}
+                      {collapse ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                       </button>
                       {collapse && 
                         

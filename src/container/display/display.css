@@ -207,6 +207,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 1rem;
 }
 #more_less_btn{
     display: flex;
