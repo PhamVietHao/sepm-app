@@ -11,15 +11,29 @@ import modal2 from '../../components/images/modal2.png';
 function Display() {
 
   const [collapse,setCollapse] = useState(false)
+  const [collapse1,setCollapse1] = useState(false)
+  const [collapse2,setCollapse2] = useState(false)
+  const [collapse3,setCollapse3] = useState(false)
+  const [collapse4,setCollapse4] = useState(false)
+  const [collapse5,setCollapse5] = useState(false)
 
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);  
   const handleShow = () => setShow(true);
 
   const [show2, setShow2] = useState(false);
+  
   const handleClose2 = () => setShow2(false);  
   const handleShow2 = () => setShow2(true);
   
+  const handleReset = () =>{
+    setCollapse(false)
+    setCollapse1(false)
+    setCollapse2(false)
+    setCollapse3(false)
+    setCollapse4(false)
+    setCollapse5(false)
+  }
   return (
     <div className='rise__display'>
       <div className='rise__display_buildings'>
@@ -37,7 +51,10 @@ function Display() {
                 <Modal className='modalBackground' show={show} onHide={handleClose}>
                   <div className='modalContainer section__padding'>
                   <div className='modal__btn_section'>
-                    <button id='modal_btn' onClick={handleClose}><span>X</span></button>                      
+                    <button id='modal_btn' onClick={() => {
+                      handleReset();
+                      handleClose();
+                    }}><span>X</span></button>                      
                   </div>
                   <Modal.Header>
                     <Modal.Title className='title'>BEANLAND BUILDING</Modal.Title>
@@ -49,21 +66,79 @@ function Display() {
                       <button id='more_less_btn' onClick={() => setCollapse(!collapse)}>
                       {collapse ? "show": "Hide"}
                       </button>
-                      {collapse && <div className='more_less_section'><h2>Hello World!</h2></div>}
+                      {collapse && 
+                        
+                        <div className='more_less_section'>
+                          <h3>Building 1 introduction video</h3>
+                          <iframe width="600" height="400" src="https://www.youtube.com/embed/mPZkdNFkNps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>}                   
                     </div>
                     
                     <h3>Detail:</h3>
                     <ul>
                       <li>First floor: The first floor consists of the core departments in RMIT University such as RMIT Connect, Job Shop, Student Council, Offices, etc and other facilities like Media Studio, Bowen Theatre, Data Centre, Stationary Shop, Computer Lab, Canteen, etc. Students can contact most of the university’s offices on this level and there are classes organized in the theaters or rooms here as well. Students can also enjoy their lunch break at the canteen, which offers many choices since there are three restaurants here</li>
+                      <div className='more_less_section'>
+                        <button id='more_less_btn' onClick={() => setCollapse1(!collapse1)}>
+                        {collapse1 ? "show": "Hide"}
+                        </button>
+                        {collapse1 &&                           
+                          <div className='more_less_section'>
+                            <h3>Building 1 introduction</h3>                           
+                          </div>}                   
+                      </div>
+                      
                       <li>Second floor: The second floor of this building mainly consists of classrooms and computer labs in the area behind the elevator. Classes usually take place in this area and students can use the map to navigate. Facing the elevator is the gallery displaying students’ art works, and the Melbourne Theatre also located in that area together with a cafeteria and some rooms for meetings. Moreover, Melbourne Theatre is a two-floor theatre, so it can hold up to a hundred students.</li>
+                      <div className='more_less_section'>
+                        <button id='more_less_btn' onClick={() => setCollapse2(!collapse2)}>
+                        {collapse2 ? "show": "Hide"}
+                        </button>
+                        {collapse2 &&                           
+                          <div className='more_less_section'>
+                            <h3>Building 1 introduction</h3>                           
+                          </div>}                   
+                      </div>
+                      
                       <li>Third Floor: The third floor has a relatively identical layout as the second floor. The area behind the elevators are the classrooms but the facing area is the Beanland Library. In the library, there are some rooms for group meetings, so students can book a place here to have team meetings and group discussions. The Melbourne Theatre is also located on this level because it uses two floors. Most students access this floor for the Beanland library and for searching books since it has more book shelves or they go to classes.</li>
+                      <div className='more_less_section'>
+                        <button id='more_less_btn' onClick={() => setCollapse3(!collapse3)}>
+                        {collapse3 ? "show": "Hide"}
+                        </button>
+                        {collapse3 &&                           
+                          <div className='more_less_section'>
+                            <h3>Building 1 introduction</h3>                           
+                          </div>}                   
+                      </div>
+                      
                       <li>Fourth Floor: The fourth floor has the exact same structure and layout as the third one. The classrooms are on one side and the Beanland library is located on the other side since the Beanland library is a two-storey building. Most of the time, students go to this floor for studying as there are computer labs here or they are here for group meetings in the library since there are more tables and chairs on this second floor of the library and there are more private rooms in addition.</li>
+                      <div className='more_less_section'>
+                        <button id='more_less_btn' onClick={() => setCollapse4(!collapse4)}>
+                        {collapse4 ? "show": "Hide"}
+                        </button>
+                        {collapse4 &&                           
+                          <div className='more_less_section'>
+                            <h3>Building 1 introduction</h3>                           
+                          </div>}                   
+                      </div>
+                      
                       <li>Fifth Floor: The fifth floor only contains classrooms since it is exclusively for the School of English & University Pathways (SEUP) of RMIT University. The head office is the area facing the elevator, and the remaining area is for classrooms.</li>
+                      <div className='more_less_section'>
+                        <button id='more_less_btn' onClick={() => setCollapse5(!collapse5)}>
+                        {collapse5 ? "show": "Hide"}
+                        </button>
+                        {collapse5 &&                           
+                          <div className='more_less_section'>
+                            <h3>Building 1 introduction</h3>                           
+                          </div>}                   
+                      </div>    
                     </ul>
 
                   </Modal.Body>
                   <Modal.Footer className='modal_footer'>  
-                    <button id='seebtn' onClick={handleClose}> Close </button>
+                    <button id='seebtn'
+                    onClick={() => {
+                      handleReset();
+                      handleClose();
+                    }}>Close</button>
                   </Modal.Footer>
                   </div>
                 </Modal>
@@ -86,7 +161,10 @@ function Display() {
                 <Modal className='modalBackground' show={show2} onHide={handleClose2}>
                   <div className='modalContainer section__padding'>
                   <div className='modal__btn_section'>
-                    <button id='modal_btn' onClick={handleClose2}><span>X</span></button>                      
+                    <button id='modal_btn' onClick={() => {
+                      handleReset();
+                      handleClose2();
+                    }}><span>X</span></button>                      
                   </div>
                   <Modal.Header closeButton>
                     <Modal.Title className='title'>ACADEMIC BUILDING 2</Modal.Title>
@@ -94,6 +172,17 @@ function Display() {
                   <Modal.Body className='modal_body'>
                     <h3>Introduction</h3>
                     <p>This building is also considered the most crucial department in RMIT University because students from all schools study here and there are also offices for each school here. Furthermore, this building has five floors in total and each specific floor is built for a specific school. There are four schools in RMIT University: School of Business & Management (SBM), School of Communication & Design (SCD), School of Science, Engineering & Technology (SSET) and School of English & University Pathways (SEUP). Three former schools have their head office in this building and SEUP has their head office in building 1. In addition, there is a basement for parking under this building and there is one elevator in this building that can bring people to the basement.</p>
+                    <div className='more_less_section'>
+                      <button id='more_less_btn' onClick={() => setCollapse(!collapse)}>
+                      {collapse ? "show": "Hide"}
+                      </button>
+                      {collapse && 
+                        
+                        <div className='more_less_section'>
+                          <h3>Building 1 introduction</h3>
+                          <iframe width="600" height="400" src="https://www.youtube.com/embed/mPZkdNFkNps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>}                   
+                    </div>
                     <h3>Detail:</h3>
                     <ul>
                       <li>First floor: The first floor of this building has a lot of university’s offices like the cashier, data center, etc. There are two Auditorium Theatres near the entrance and the elevator, and there are merged classrooms facing them. Besides that, there is a lot of space for working at this level next to the well-known Red Stair of RMIT University. In addition, there is a canopy next to this building with a lot of chairs and tables for people to take a break.</li>
@@ -104,7 +193,10 @@ function Display() {
                     </ul>
                   </Modal.Body>
                   <Modal.Footer className='modal_footer'>
-                    <button id='seebtn' onClick={handleClose2}> Close </button>
+                    <button id='seebtn' onClick={() => {
+                      handleReset();
+                      handleClose2();
+                    }}> Close </button>           
                   </Modal.Footer>
                   </div>
                 </Modal>
