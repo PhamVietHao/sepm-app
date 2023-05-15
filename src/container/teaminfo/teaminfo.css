@@ -30,7 +30,7 @@
 .rise__teaminfo_paragraph{
     flex: 1;
     justify-content: flex-start;
-    margin: 2rem 4rem;
+    margin: 2rem 0;
 
     font-family:'Roboto', sans-serif;
     color: black;

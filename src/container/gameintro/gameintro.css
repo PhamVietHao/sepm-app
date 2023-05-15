@@ -52,3 +52,7 @@
 
     color: #FFFFFF;
 }
+
+.rise__gameintro_paragraph p{
+    text-align: justify;
+}
