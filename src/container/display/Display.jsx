@@ -11,6 +11,13 @@ import modal2 from '../../components/images/modal2.png';
 
 import f1_1 from '../../components/building_images/floor1_1.jpg';
 import f1_2 from '../../components/building_images/floor1_2.jpg';
+import f1_3 from '../../components/building_images/floor1_3.jpg';
+import f1_4 from '../../components/building_images/floor1_4.jpg';
+import f1_5 from '../../components/building_images/floor1_5.jpg';
+import f1_6 from '../../components/building_images/floor1_6.jpg';
+import f1_7 from '../../components/building_images/floor1_7.jpg';
+import f1_8 from '../../components/building_images/floor1_8.jpg';
+import f1_9 from '../../components/building_images/floor1_9.jpg';
 
 function Display() {
 
@@ -68,7 +75,7 @@ function Display() {
                     <p>This is a multifunctional building in RMIT University and it can be considered one of the main buildings since its capacity is the highest and many university’s departments are located here. Moreover, this building has 5 levels and there are two staircases to each level: one staircase is next to the elevator inside the building and one more is situated outside the building</p>
                     <div className='more_less_section'>
                       <button id='more_less_btn' onClick={() => setCollapse(!collapse)}>
-                      {collapse ? "show": "Hide"}
+                      {collapse ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                       </button>
                       {collapse && 
                         
@@ -101,7 +108,7 @@ function Display() {
                         </button>
                         {collapse2 &&                           
                           <div className='more_less_section'>
-                            <h3>Building 1 introduction</h3>                           
+                            <img width={600} height={400} src={f1_3}></img>                           
                           </div>}                   
                       </div>
                       
@@ -112,7 +119,8 @@ function Display() {
                         </button>
                         {collapse3 &&                           
                           <div className='more_less_section'>
-                            <h3>Building 1 introduction</h3>                           
+                            <img width={600} height={400} src={f1_4}></img>
+                            <img width={600} height={400} src={f1_5}></img>                           
                           </div>}                   
                       </div>
                       
@@ -123,7 +131,8 @@ function Display() {
                         </button>
                         {collapse4 &&                           
                           <div className='more_less_section'>
-                            <h3>Building 1 introduction</h3>                           
+                            <img width={600} height={400} src={f1_6}></img>
+                            <img width={600} height={400} src={f1_7}></img>                               
                           </div>}                   
                       </div>
                       
@@ -134,7 +143,8 @@ function Display() {
                         </button>
                         {collapse5 &&                           
                           <div className='more_less_section'>
-                            <h3>Building 1 introduction</h3>                           
+                            <img width={600} height={400} src={f1_8}></img>
+                            <img width={600} height={400} src={f1_9}></img>                         
                           </div>}                   
                       </div>    
                     </ul>
