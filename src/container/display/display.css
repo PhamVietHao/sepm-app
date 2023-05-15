@@ -181,18 +181,20 @@
     align-items: center;
 }
 .modal_body h3{
-    font-weight: 400;
+    font-weight: 500;
 }
 .modal_body p{
     font-weight: 400;
     margin: 1rem ;
     text-align: justify;
+    word-spacing: 2px;
 }
 
 .modal_body li{
     font-weight: 400;
     margin: 1rem ;
     text-align: justify;
+    word-spacing: 2px;
 }
 
 .modal_footer{
