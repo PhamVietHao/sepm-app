@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Header, Tothetop } from './components';
+import { Navbar, Header, Tothetop, Chatbot } from './components';
 import {Teaminfo, Rmitbuildings, Display, Gameintro, Gamestory, Footer, Display2, Gameguide, Event} from './container'
 
 import './App.css';
@@ -8,6 +8,7 @@ import './App.css';
 const App = () => {
   return (
     <div className='App'>
+      <Chatbot/>
       <Tothetop/>
       <div className='blue__bg'>
         <Navbar/>
