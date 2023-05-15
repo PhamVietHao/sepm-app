@@ -19,7 +19,7 @@
     font-weight: 800;
     font-size: 62px;
     line-height: 75px;
-    letter-spacing: -0.04 em;
+    letter-spacing: -0.04;
     font-family: 'Bruno Ace', sans-serif;
     color: white;
 }
@@ -30,8 +30,8 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    text-align: justify;
     color: #FFFFFF;
+    letter-spacing: -0.04 em;
 }
 
 .rise__header-content button{
