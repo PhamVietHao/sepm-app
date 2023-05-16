@@ -21,6 +21,7 @@
 @media (max-width:1179px) {
     .rise__gameguide_header{
         text-align: center;
+        font-size: 30px;
     }
     .rise__gameguide_video iframe{
         width: 350px;

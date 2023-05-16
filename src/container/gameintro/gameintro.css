@@ -62,7 +62,10 @@
 
 @media (max-width:800px){
     .rise__gameintro p{
-        margin: 1rem;
+        margin: 0 1rem;
         text-align: justify;
     }
+    .rise__gameintro_header{
+        font-size: 30px;
+}
 }
