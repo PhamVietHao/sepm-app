@@ -1,6 +1,7 @@
 .rise__footer{
     display: flex;
     height: 60px;
+    overflow-x: hidden;
 }
 
 .rise__footer_content{

@@ -55,7 +55,7 @@
 }
 
 .rise__header-image{
-    flex: 1;
+    
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -99,6 +99,7 @@
     .none_writing_animation{
         visibility: visible;
     }
+
 }
 
 @media screen and (max-width:390px) 
@@ -114,10 +115,22 @@
     }
 
 }
-
+@media (max-width:800px) {
+    .rise__header-image img{    
+        display: none;
+}
+    .rise__header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 @media screen and (max-width:900px){
     .rise_navbar-links_container{
         display: none;
+    }
+    .rise__header-image img{ 
+        width: 300px;   
     }
     
     .rise__gameintro_header{

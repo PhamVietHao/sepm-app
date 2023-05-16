@@ -84,7 +84,7 @@ rise_navbar-links_container li:focus::before{
         font-size: 30px;
         color: #ff4820;
         top: 1rem;
-        right: 70px;
+        right: 60px;
         border: none;
         margin-top: 1rem;
         width: 60px;
