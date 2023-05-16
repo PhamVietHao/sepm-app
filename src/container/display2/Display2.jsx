@@ -1,6 +1,7 @@
 import {React, useState} from 'react'
 import { Modal } from 'react-bootstrap';
-import { FaArrowRight, FaArrowLeft, FaRegTimesCircle} from "react-icons/fa";
+import { FaArrowRight, FaArrowLeft} from "react-icons/fa";
+import {FaAngleDoubleDown, FaAngleDoubleUp} from "react-icons/fa";
 
 import './display2.css'
 
@@ -76,12 +77,12 @@ function Display2() {
                       
                       <div className='more_less_section'>
                         <button id='more_less_btn' onClick={() => setCollapse(!collapse)}>
-                        {collapse ? "show": "Hide"}
+                        {collapse ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                         </button>
                         {collapse &&                        
                         <div className='more_less_section'>
-                          <h3>Building 1 introduction video</h3>
-                          <iframe width="600" height="400" src="https://www.youtube.com/embed/mPZkdNFkNps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          <h3>Building 8 introduction video</h3>
+                          <iframe width="600" height="400" src="https://www.youtube.com/embed/GZ9Cbr2mHeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>}                   
                       </div>
                       
@@ -90,7 +91,7 @@ function Display2() {
                           <li>First floor: The first floor consists of two main rooms which are electrical, electronic engineering lab and mechatronics, robotics  engineering lab. There is also a toilet next to Lab-robotics.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse1(!collapse1)}>
-                            {collapse1 ? "show": "Hide"}
+                            {collapse1 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                             </button>
                             {collapse1 &&                        
                             <div className='more_less_section'>
@@ -101,7 +102,7 @@ function Display2() {
                           <li>Second floor: On the second floor there are some classrooms.  The SCD studio is the room on this floor that draws the most attention, this is also the place that store a lot of student’s works. There are two workshops for SCD class participants. Also, the space forbids any club activities. A student meeting room and office are located just next to the elevator.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse2(!collapse2)}>
-                            {collapse2 ? "show": "Hide"}
+                            {collapse2 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                             </button>
                             {collapse2 &&                        
                             <div className='more_less_section'>
@@ -112,7 +113,7 @@ function Display2() {
                           <li>Third floor: The third floor consists of mainly English classroom. There are also some staff room on this floor.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse3(!collapse3)}>
-                            {collapse3 ? "show": "Hide"}
+                            {collapse3 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                             </button>
                             {collapse3 &&                        
                             <div className='more_less_section'>
@@ -123,7 +124,7 @@ function Display2() {
                           <li>Fourth floor: Besides the classroom on the fourth floor, there are 2 storage rooms next to each other. One of the stores is student services while the other one is design. There are also two offices for staff next to the elevator.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse4(!collapse4)}>
-                            {collapse4 ? "show": "Hide"}
+                            {collapse4 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                             </button>
                             {collapse4 &&                        
                             <div className='more_less_section'>
@@ -163,12 +164,22 @@ function Display2() {
                     <Modal.Body className='modal_body'>
                       <h3>Introduction</h3>
                       <p>First-year students could stay in an RMIT residential facility for a few semesters before locating another place to live. There are six levels in this building.</p>
+                      <div className='more_less_section'>
+                            <button id='more_less_btn' onClick={() => setCollapse(!collapse)}>
+                            {collapse ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
+                            </button>
+                            {collapse &&                        
+                            <div className='more_less_section'>
+                              <h3>Building 9 introduction video</h3>
+                              <iframe width="600" height="400" src="https://www.youtube.com/embed/z7V9DZzDnmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>}                   
+                      </div>
                       <h3>Detail:</h3>
                       <ul>
                           <li>The first floor: The first floor is the one that is the busiest. The first floor of this structure is where Nine Restaurant is located. It is highly advised for students who want to eat some cuisine to do so here. The other section is reserved for residents only, save from Nine restaurants. The amusement room, where students can play some pool and other table games, is on your right as you enter the building. The office and two conference rooms are on the left. Moreover, this floor includes a laundry facility.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse1(!collapse1)}>
-                            {collapse1 ? "show": "Hide"}
+                            {collapse1 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                             </button>
                             {collapse1 &&                        
                             <div className='more_less_section'>
@@ -179,7 +190,7 @@ function Display2() {
                           <li>Second floor, third floor, fourth floor, fifth floor and sixth floor: all of this floor are filled with dorm rooms. On level 2 and 3 there are 20 beds on these floor while on level 4, 5 and 6 there are 21 beds on each floor.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse2(!collapse2)}>
-                            {collapse2 ? "show": "Hide"}
+                            {collapse2 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                             </button>
                             {collapse2 &&                        
                             <div className='more_less_section'>
@@ -237,12 +248,24 @@ function Display2() {
                     <Modal.Body className='modal_body'>
                       <h3>Introduction</h3>
                       <p>This building is known as the school's REC. Upon entrance, you will be able to access a very large sporthall used for basketball and other variety of sports. It is a place filled with an energetic and healthy environment which will keep you fit while you are studying, along with promoting social connectivity and multi-cultural immersion. This is also the place where the student council’s members usually gather and hold events.</p>
+                      
+                      <div className='more_less_section'>
+                          <button id='more_less_btn' onClick={() => setCollapse(!collapse)}>
+                          {collapse ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
+                          </button>
+                          {collapse &&                        
+                          <div className='more_less_section'>
+                            <h3>Building 10 introduction video</h3>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/rnMyObKYzAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          </div>}                   
+                      </div>
+                      
                       <h3>Detail:</h3>
                         <ul>
                           <li>First floor: The first floor of this building is versatile. In the lobby, there is a mattress area in a corner for exercising and there are some ping pong tables on the other side, which can be used for organizing events. The largest area in REC is the sports hall which is a combined court of basketball, badminton and futsal. This is also one of the most well-known places for students that love sports. Besides that, there is a gym next to a sports hall for people to work out. In addition, there is a clinic on this floor for people with injuries or physical issues.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse1(!collapse1)}>
-                            {collapse1 ? "show": "Hide"}
+                            {collapse1 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                             </button>
                             {collapse1 &&                        
                             <div className='more_less_section'>
@@ -253,7 +276,7 @@ function Display2() {
                           <li>Second floor: The second floor has some functional rooms and offices such as Student Life’s office. There are two rooms called Flemington, which have mirrors, musical instruments for musical activities. In addition, there is a bar and restaurant here, connecting to the grandstand of the sports field.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse2(!collapse2)}>
-                            {collapse2 ? "show": "Hide"}
+                            {collapse2 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
                             </button>
                             {collapse2 &&                        
                             <div className='more_less_section'>
