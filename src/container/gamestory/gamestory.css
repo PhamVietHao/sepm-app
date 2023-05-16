@@ -38,3 +38,23 @@
 
     color: #FFFFFF;
 }
+
+@media (max-width:1000px) {
+    .rise__gamestory_image img{
+        margin-top: 6rem;
+    }
+    .rise__gamestory{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:800px) {
+    .rise__gamestory_image img{
+        width: 400px;
+        margin-top: 0.5rem;       
+    }
+    .rise__gamestory_header{
+        margin: 1rem;
+    }
+}

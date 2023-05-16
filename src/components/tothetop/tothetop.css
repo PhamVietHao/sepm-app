@@ -38,5 +38,9 @@
   }
 }
 
-
+@media (max-width:600) {
+    .top-btn{
+      display: none;
+    }
+}
 

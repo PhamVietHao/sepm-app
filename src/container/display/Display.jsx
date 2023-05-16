@@ -60,9 +60,9 @@ function Display() {
                 <h4>Building 1</h4>
                 <button type="button" id='seebtn' onClick={handleShow}>See more</button>
                 <Modal className='modalBackground' show={show} onHide={handleClose}>
-                  <div className='modalContainer section__padding'>
+                  <div className='modalContainer'>
                   <div className='modal__btn_section'>
-                    <button id='modal_btn' onClick={() => {
+                    <button id='modal_btn_close' onClick={() => {
                       handleReset();
                       handleClose();
                     }}><span>X</span></button>                      
@@ -81,7 +81,7 @@ function Display() {
                         
                         <div className='more_less_section'>
                           <h3>Building 1 introduction video</h3>
-                          <iframe width="600" height="400" src="https://www.youtube.com/embed/mPZkdNFkNps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          <iframe width="600" height="400" src="https://www.youtube.com/embed/NGWKQuU_b8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>}                   
                     </div>
                     
@@ -168,7 +168,7 @@ function Display() {
             <div className='rise_display_building_img'>
             <img src={building2}></img>
             </div>
-              <div className='rise__display_modal1'>
+              <div className='rise__display_modal1 building2nd'>
                 <img src={modal2}></img>
               </div>
               <div className='rise__display_buildinginfo building1st'>
@@ -176,9 +176,9 @@ function Display() {
                 <h4>Building 2</h4>
                 <button type="button" id='seebtn' onClick={handleShow2}>See more</button> 
                 <Modal className='modalBackground' show={show2} onHide={handleClose2}>
-                  <div className='modalContainer section__padding'>
+                  <div className='modalContainer '>
                   <div className='modal__btn_section'>
-                    <button id='modal_btn' onClick={() => {
+                    <button id='modal_btn_close' onClick={() => {
                       handleReset();
                       handleClose2();
                     }}><span>X</span></button>                      
@@ -196,8 +196,8 @@ function Display() {
                       {collapse && 
                         
                         <div className='more_less_section'>
-                          <h3>Building 1 introduction</h3>
-                          <iframe width="600" height="400" src="https://www.youtube.com/embed/mPZkdNFkNps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          <h3>Building 2 introduction</h3>
+                          <iframe width="600" height="400" src="https://www.youtube.com/embed/TgJFo8xXm4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>}                   
                     </div>
                     <h3>Detail:</h3>

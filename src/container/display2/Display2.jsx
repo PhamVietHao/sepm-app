@@ -60,9 +60,9 @@ function Display2() {
                 <h4>Building 8 and Building 9</h4>
                 <button type="button" id='seebtn' onClick={handleShow}>See more</button>
                 <Modal className='modalBackground' show={show} onHide={handleClose}>
-                  <div className='modalContainer section__padding'>
+                  <div className='modalContainer'>
                   <div className='modal__btn_section'>
-                    <button id='modal_btn' onClick={() => {
+                    <button id='modal_btn_close' onClick={() => {
                       handleReset();
                       handleClose();
                     }}><span>X</span></button>                      
@@ -150,9 +150,9 @@ function Display2() {
                 </Modal>
                 
                 <Modal className='modalBackground' show={show3} onHide={handleClose3}>
-                  <div className='modalContainer section__padding'>
+                  <div className='modalContainer'>
                   <div className='modal__btn_section'>
-                    <button id='modal_btn' onClick={() => {
+                    <button id='modal_btn_close' onClick={() => {
                       handleReset();
                       handleClose3();
                     }}><span>X</span></button>                      
@@ -219,14 +219,14 @@ function Display2() {
           </div>
       </div>
       
-      <div className='rise__display_buildings'>
+      <div className='rise__display_buildings building__bottom'>
           <div className='rise__display_building'>
             
             <div className='rise_display_building_img'>
               <img src={building10}></img>
             </div>
               
-            <div className='rise__display_modal1'>
+            <div className='rise__display_modal1 modal_build_10'>
               <img src={modal4}></img>
             </div>
               
@@ -237,9 +237,9 @@ function Display2() {
                 <button type="button" id='seebtn' onClick={handleShow2}>See more</button>
                 
                 <Modal className='modalBackground' show={show2} onHide={handleClose2}>
-                  <div className='modalContainer section__padding'>
+                  <div className='modalContainer'>
                   <div className='modal__btn_section'>
-                    <button id='modal_btn' onClick={handleClose2}><span>X</span></button>                      
+                    <button id='modal_btn_close' onClick={handleClose2}><span>X</span></button>                      
                   </div>
                     <Modal.Header closeButton>
                       <Modal.Title className='title'>Recreation and Events Complex</Modal.Title>

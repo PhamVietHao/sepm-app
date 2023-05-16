@@ -9,7 +9,7 @@ function Gameintro() {
   },[])
 
   return (
-    <div id='OURGAME' className='rise__gameintro section__padding ' data-aos="fade-up">
+    <div id='OURGAME' className='rise__gameintro' data-aos="fade-up">
         <div className='rise__gameintro_header'>
             GUARDIANS OF RMIT
             <hr/>

@@ -9,7 +9,9 @@ const App = () => {
   return (
     <div className='App'>
       <Chatbot/>
-      <Tothetop/>
+      <div className='totopbtn'>
+        <Tothetop/>
+      </div>      
       <div className='blue__bg'>
         <Navbar/>
         <Header/>

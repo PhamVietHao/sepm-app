@@ -9,7 +9,7 @@ function Gamestory() {
   },[])
   
   return (
-    <div className='rise__gamestory section__padding'>
+    <div className='rise__gamestory'>
         <div className='rise__gamestory_image'  data-aos="fade-right">
             <img src={herobanner} />
         </div>

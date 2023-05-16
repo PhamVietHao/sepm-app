@@ -1,24 +1,22 @@
 
 .rise__rmitbuildings{
     display: flex;
+    margin: 5rem 6rem;
 }
 
 .rise__rmitbuildings-content{
-    flex: 1;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     flex-direction: column;
-
-    margin-right: 5rem;
+    flex: 1;
+    /* margin-right: 5rem; */
 }
 
 .rise__rmitbuildings-image{
-    flex: 2;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex: 2;
 }
 
 .rise__rmitbuildings-content h1{
@@ -27,10 +25,11 @@
     font-weight: 500;
     font-size: 40px;
     line-height: 47px;
-    /* identical to box height */
-    margin: 0 7rem;
-    text-align: center;
-
+}
+.rise__rmitbuildings_header h1{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
 }
 
 .rise__rmitbuildings-content p{
@@ -52,4 +51,27 @@
     width: 20%;
 }
 
+@media (max-width:1000px) {
+    .rise__rmitbuildings{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+    
+    .rise__rmitbuildings-image img{
+        width: 300px;
+    }
+    .rise__rmitbuildings-content p{
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rise__rmitbuildings-content {
+    
+    }
+
+
+
+}
 

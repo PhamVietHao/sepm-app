@@ -9,6 +9,7 @@ function Header() {
         <div className='rise__header-content' >
             <h1> <div className='bold_RMIT'>RMIT</div> COMPANION</h1>
             <p>This web-based application is created to help students and parents explore the school infrastructure in a more interactive and information way with a FUN and ENGAGING Website with&nbsp; 
+            <span className='writing_animation'>
             <TypeAnimation
         sequence={[
           'Game', 
@@ -29,6 +30,8 @@ function Header() {
         repeat={Infinity}
         // style={{ fontSize: '2em', display: 'inline-block' }}
       />
+           </span> <span className='none_writing_animation'> Game and Chatbot features</span>
+          
             </p>
             <button type="button" id='seebtn'>Get Started</button>
         </div>

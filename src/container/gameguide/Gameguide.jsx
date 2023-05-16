@@ -8,7 +8,7 @@ function Gameguide() {
         GAME GUIDE
       </div>
       <div className='rise__gameguide_video'>
-      <iframe width="800" height="600" src="https://www.youtube.com/embed/mPZkdNFkNps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="800" height="600" src="https://www.youtube.com/embed/Rom94rHuWh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
   )

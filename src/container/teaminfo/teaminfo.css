@@ -98,3 +98,49 @@
         transform: translateY(-20px);
     }
 }
+
+
+@media (max-width:390px) {
+    .rise__teaminfo_member_section{
+        display: flex;
+        flex-direction: column;
+    }
+    .rise__teaminfo_paragraph{
+        display: none;
+    }
+    .rise__teaminfo_header h1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .writing_animation{
+        display: none
+    }
+
+    .profile_picture{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:850px){
+    .profile_picture{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .writing_animation{
+        display: none
+    }
+    .rise__teaminfo_member_section{
+        display: flex;
+        flex-direction: column;
+    }
+    .social_media{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

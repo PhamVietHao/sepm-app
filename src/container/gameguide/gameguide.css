@@ -17,3 +17,13 @@
 .rise__gameguide_video{
     margin-top: 2rem;
 }
+
+@media (max-width:1179px) {
+    .rise__gameguide_header{
+        text-align: center;
+    }
+    .rise__gameguide_video iframe{
+        width: 350px;
+        height: 300px;
+    }
+}

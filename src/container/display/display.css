@@ -125,7 +125,7 @@
     font-family: 'Roboto' ;
     font-style: normal;
     position: relative;
-    
+    padding: 5rem 6rem;
 }
 
 @keyframes droptop{
@@ -164,11 +164,11 @@
     background-color: #FFFFFF;
 }
 
-#modal_btn:hover span{
+#modal_btn_close:hover span{
     background-color: #FF5E46;
     color: #FFFFFF;
 }
-#modal_btn span{
+#modal_btn_close span{
     display: flex;
     font-size: 20px;
     color: #FF5E46;
@@ -224,4 +224,60 @@
     color: #FF5E46;
 }
 
+@media (max-width:1000px) {
+    .rise__display{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
+@media (max-width:600px) {
+        .rise_display_building_img img{
+        height: 150px;
+        width: 200px;
+    }
+    .rise__display_modal1 img{
+        height: 200px;
+        width: 200px;
+    }
+    .building__1 img{
+        top:50px;
+    }
+    .building1st{
+        top: 20px;
+        text-align: center;
+    }
+    .building2nd img{
+        top:60px;
+    }
+}
+
+@media (max-width:600px) {
+    .modalContainer{
+        padding: 0rem;
+        display: flex;
+        align-items: center;
+
+        flex-direction: column;
+
+        
+        padding:1rem 2rem ;
+    }
+
+    #modal_btn_close{
+        display: none;
+    }
+
+
+    .modalContainer{
+        width: 100%;
+        height: 100%;
+    }
+
+    .modalContainer iframe{
+        width: 300px;
+        height: 250px;
+    }
+}
