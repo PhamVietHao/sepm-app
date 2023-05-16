@@ -186,14 +186,12 @@
 .modal_body p{
     font-weight: 400;
     margin: 1rem ;
-    text-align: justify;
     word-spacing: 2px;
 }
 
 .modal_body li{
     font-weight: 400;
     margin: 1rem ;
-    text-align: justify;
     word-spacing: 2px;
 }
 
@@ -222,6 +220,9 @@
     background-color: #FFFFFF;
     border: none;
     color: #FF5E46;
+}
+.more_less_section img{
+    margin-top: 1rem;
 }
 
 @media (max-width:1000px) {
@@ -279,5 +280,10 @@
     .modalContainer iframe{
         width: 300px;
         height: 250px;
+    }
+
+    .more_less_section img{
+        width: 300px;
+        height: 200px;
     }
 }

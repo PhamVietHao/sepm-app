@@ -10,6 +10,12 @@ import building10 from '../../components/images/building10.png';
 import modal3 from '../../components/images/modal3.png';
 import modal4 from '../../components/images/modal4.png';
 
+import f3_1 from '../../components/building_images/floor3_1.jpg';
+import f4_1 from '../../components/building_images/floor4_1.jpg';
+import f5_1 from '../../components/building_images/floor5_1.jpg';
+import f5_2 from '../../components/building_images/floor5_2.jpg';
+import f5_3 from '../../components/building_images/floor5_3.jpg';
+
 function Display2() {
 
   const [collapse,setCollapse] = useState(false)
@@ -95,7 +101,7 @@ function Display2() {
                             </button>
                             {collapse1 &&                        
                             <div className='more_less_section'>
-                              <h3>Building 1 introduction video</h3>
+                              <img width={600} height={400} src={f3_1}></img> 
                             </div>}                   
                           </div>  
                           
@@ -183,7 +189,7 @@ function Display2() {
                             </button>
                             {collapse1 &&                        
                             <div className='more_less_section'>
-                              <h3>Building 1 introduction video</h3>
+                              <img width={600} height={400} src={f4_1}></img> 
                             </div>}                   
                           </div>
                           
@@ -269,7 +275,7 @@ function Display2() {
                             </button>
                             {collapse1 &&                        
                             <div className='more_less_section'>
-                              <h3>Building 1 introduction video</h3>
+                              <img width={600} height={400} src={f5_1}></img> 
                             </div>}                   
                           </div>
                           
@@ -280,7 +286,8 @@ function Display2() {
                             </button>
                             {collapse2 &&                        
                             <div className='more_less_section'>
-                              <h3>Building 1 introduction video</h3>
+                              <img width={600} height={400} src={f5_2}></img>
+                              <img width={600} height={400} src={f5_3}></img> 
                             </div>}                   
                           </div>
                         
@@ -288,7 +295,11 @@ function Display2() {
                     </Modal.Body>
                     
                     <Modal.Footer className='modal_footer'>
-                      <button id='seebtn' onClick={handleClose2}> Close </button>                   
+                    <button id='seebtn'
+                    onClick={() => {
+                      handleReset();
+                      handleClose2();
+                    }}>Close</button>                   
                     </Modal.Footer>
                   
                   </div>

@@ -8,7 +8,9 @@ import './App.css';
 const App = () => {
   return (
     <div className='App'>
-      <Chatbot/>
+      <div className='chatbotsection'>
+        <Chatbot/>
+      </div>
       <div className='totopbtn'>
         <Tothetop/>
       </div>      

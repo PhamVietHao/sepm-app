@@ -19,6 +19,16 @@ import f1_7 from '../../components/building_images/floor1_7.jpg';
 import f1_8 from '../../components/building_images/floor1_8.jpg';
 import f1_9 from '../../components/building_images/floor1_9.jpg';
 
+import f2_1 from '../../components/building_images/floor2_1.jpg';
+import f2_2 from '../../components/building_images/floor2_2.jpg';
+import f2_3 from '../../components/building_images/floor2_3.jpg';
+import f2_4 from '../../components/building_images/floor2_4.jpg';
+import f2_5 from '../../components/building_images/floor2_5.jpg';
+import f2_6 from '../../components/building_images/floor2_6.jpg';
+import f2_7 from '../../components/building_images/floor2_7.jpg';
+import f2_8 from '../../components/building_images/floor2_8.jpg';
+import f2_9 from '../../components/building_images/floor2_9.jpg';
+
 function Display() {
 
   const [collapse,setCollapse] = useState(false)
@@ -143,8 +153,8 @@ function Display() {
                         </button>
                         {collapse5 &&                           
                           <div className='more_less_section'>
-                            <img width={600} height={400} src={f1_8}></img>
-                            <img width={600} height={400} src={f1_9}></img>                         
+                            <img width={600} height={400} src={f1_8}></img>                          
+                            <img width={600} height={400} src={f1_9}></img>                                                                             
                           </div>}                   
                       </div>    
                     </ul>
@@ -203,10 +213,67 @@ function Display() {
                     <h3>Detail:</h3>
                     <ul>
                       <li>First floor: The first floor of this building has a lot of university’s offices like the cashier, data center, etc. There are two Auditorium Theatres near the entrance and the elevator, and there are merged classrooms facing them. Besides that, there is a lot of space for working at this level next to the well-known Red Stair of RMIT University. In addition, there is a canopy next to this building with a lot of chairs and tables for people to take a break.</li>
+                      <div className='more_less_section'>
+                        <button id='more_less_btn' onClick={() => setCollapse1(!collapse1)}>
+                        {collapse1 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
+                        </button>
+                        {collapse1 &&                           
+                          <div className='more_less_section'>
+                            <img width={600} height={400} src={f2_1}></img>
+                            <img width={600} height={400} src={f2_2}></img>                           
+                          </div>}                   
+                      </div>
+                      
                       <li>Second floor: The second floor of this building is for the School of Business & Management (SBM). On this floor, there are two offices for SBM staff on the two sides and the space for students is in the center area of the floor. There are classrooms with the projector, lab rooms and two trading rooms for educational and professional purposes. There are also tables and chairs in the corridor so that students can take a break or study there.</li>
+                      <div className='more_less_section'>
+                        <button id='more_less_btn' onClick={() => setCollapse2(!collapse2)}>
+                        {collapse2 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
+                        </button>
+                        
+                        {collapse2 &&                           
+                          <div className='more_less_section'>
+                            <img width={600} height={400} src={f2_3}></img>
+                            <img width={600} height={400} src={f2_4}></img>                           
+                          </div>}                   
+                      </div>
+                      
                       <li>Third floor: The third floor is also for the School of Business & Management (SBM) since this school has the largest number of students. The layout of this floor is the same as the second floor but there are no trading labs and there are more classrooms instead. In the corridor, there are tables and chairs for students to study and take a short break.</li>
+                      <div className='more_less_section'>
+                        <button id='more_less_btn' onClick={() => setCollapse3(!collapse3)}>
+                        {collapse3 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
+                        </button>
+                        {collapse3 &&                           
+                          <div className='more_less_section'>
+                            <img width={600} height={400} src={f2_5}></img>
+                                                     
+                          </div>}                   
+                      </div>
+                      
                       <li>Fourth floor: The fourth floor is for students from the School of Science, Engineering & Technology (SSET). The layout of this level is quite different from the lower ones since the head office of SSET only located on the one side of the floor. The other side is for Electrical, Engineering and Comms Lab, Engineering Science Lab and Machinery Lab. The center area consists of classrooms and computer labs. There are also tables and chairs in the corridor so that students can take a break or study there.</li>
+                      <div className='more_less_section'>
+                        <button id='more_less_btn' onClick={() => setCollapse4(!collapse4)}>
+                        {collapse4 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
+                        </button>
+                        {collapse4 &&                           
+                          <div className='more_less_section'>
+                            <img width={600} height={400} src={f2_6}></img>  
+                            <img width={600} height={400} src={f2_7}></img>
+                                                       
+                          </div>}                   
+                      </div>
+                      
                       <li>Fifth floor: The fifth floor of this building has the same layout to the second and third floors as its head offices are located on the two sides of the level. This floor is exclusively for students from School of Communication & Design (SCD). In the remaining area of the floor, half of it is computer labs and the other half is for classrooms. There are also tables, chairs and some computers in the corridor so that students can study there.</li>
+                      <div className='more_less_section'>
+                        <button id='more_less_btn' onClick={() => setCollapse5(!collapse5)}>
+                        {collapse5 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
+                        </button>
+                        {collapse5 &&                           
+                          <div className='more_less_section'>
+                            <img width={600} height={400} src={f2_9}></img>
+                            <img width={600} height={400} src={f2_8}></img>                         
+                          </div>}                   
+                      </div>    
+                    
                     </ul>
                   </Modal.Body>
                   <Modal.Footer className='modal_footer'>
