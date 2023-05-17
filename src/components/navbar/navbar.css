@@ -105,3 +105,12 @@ rise_navbar-links_container li:focus::before{
         transition: all 0.5 eaase;
     }
 }
+
+@media (max-width:500px) {
+    .rise_navbar-links_logo{
+        left: 2rem;
+        top: 1.8rem;
+        position: absolute;
+    }
+    
+}
