@@ -71,4 +71,10 @@
     #gamebtn{
         display: none;
     }
+    
+}
+@media (max-width:1000px) {
+    .rise__gameintro_paragraph p{
+        font-size: 18px;
+    }
 }

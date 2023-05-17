@@ -39,7 +39,7 @@
     font-size: 22px;
     line-height: 30px;
     /* or 136% */
-    margin: 3rem 0;
+    margin: 2rem 0;
     text-align: justify;
 }
 
@@ -67,10 +67,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 18px;
     }
     .rise__rmitbuildings-content {
     
     }
+    
 
 
 
