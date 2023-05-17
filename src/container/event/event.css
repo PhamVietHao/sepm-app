@@ -81,7 +81,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
-    width:10%;
+    width:20%;
     border: 5px solid #FF5E46;
 }
 
@@ -92,12 +92,15 @@
     }
     
     .rise__event_card{
-        margin-top: 1.4rem;
+        margin-top: 2rem;
     }
 
     .rise__event_head p{
         font-size: 20px;
         min-width: auto;
+    }
+    .rise__event_head p{
+        display:none;
     }
 }
 
