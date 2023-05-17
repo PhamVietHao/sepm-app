@@ -68,4 +68,7 @@
     .rise__gameintro_header{
         font-size: 30px;
 }
+    #gamebtn{
+        display: none;
+    }
 }
