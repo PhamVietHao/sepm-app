@@ -38,7 +38,7 @@
   }
 }
 
-@media (max-width:600) {
+@media (max-width:400) {
     .top-btn{
       display: none;
     }
