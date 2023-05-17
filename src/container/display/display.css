@@ -1,7 +1,6 @@
 .rise__display{
     display: flex;
     justify-content: center;
-    overflow-x: hidden;
 }
 
 .rise__display_buildings{
