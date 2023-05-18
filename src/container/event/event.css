@@ -81,7 +81,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
-    width:20%;
+    width:10%;
     border: 5px solid #FF5E46;
 }
 
@@ -101,6 +101,9 @@
     }
     .rise__event_head p{
         display:none;
+    }
+    .rise__event_head hr{
+        width: 30px;
     }
 }
 
