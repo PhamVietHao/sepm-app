@@ -58,7 +58,7 @@ a {
     height: 100%;
     background-attachment: fixed;
     overflow-x:hidden ;
-    background-position: center top;
+    background-position: center;
 }
 
 .footer{
@@ -73,6 +73,9 @@ a {
 
     .chatbotsection{
 
+    }
+    .gameinfo{
+        background-position: right;
     }
     
 }
