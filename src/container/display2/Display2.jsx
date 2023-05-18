@@ -63,8 +63,12 @@ function Display2() {
               </div>
               <div className='rise__display_buildinginfo building2nd'>
                 <h3>SSET Technical and Residential Building</h3>
-                <h4>Building 8 and Building 9</h4>
-                <button type="button" id='seebtn' onClick={handleShow}>See more</button>
+                <div className='building_number'><h3>Building 8 & Building 9</h3></div>
+                
+                <div className='space_between'>
+                  <button type="button" id='seebtn' onClick={handleShow}>See more</button>
+                </div>
+                
                 <Modal className='modalBackground' show={show} onHide={handleClose}>
                   <div className='modalContainer'>
                   <div className='modal__btn_section'>
@@ -94,7 +98,7 @@ function Display2() {
                       
                       <h3>Detail:</h3>
                       <ul>
-                          <li>First floor: The first floor consists of two main rooms which are electrical, electronic engineering lab and mechatronics, robotics  engineering lab. There is also a toilet next to Lab-robotics.</li>
+                          <li><span className='bold_word'><h4>First floor:</h4></span> The first floor consists of two main rooms which are electrical, electronic engineering lab and mechatronics, robotics  engineering lab. There is also a toilet next to Lab-robotics.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse1(!collapse1)}>
                             {collapse1 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
@@ -105,7 +109,7 @@ function Display2() {
                             </div>}                   
                           </div>  
                           
-                          <li>Second floor: On the second floor there are some classrooms.  The SCD studio is the room on this floor that draws the most attention, this is also the place that store a lot of student’s works. There are two workshops for SCD class participants. Also, the space forbids any club activities. A student meeting room and office are located just next to the elevator.</li>
+                          <li><span className='bold_word'><h4>Second floor:</h4></span> On the second floor there are some classrooms.  The SCD studio is the room on this floor that draws the most attention, this is also the place that store a lot of student’s works. There are two workshops for SCD class participants. Also, the space forbids any club activities. A student meeting room and office are located just next to the elevator.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse2(!collapse2)}>
                             {collapse2 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
@@ -116,7 +120,7 @@ function Display2() {
                             </div>}                   
                           </div>
                           
-                          <li>Third floor: The third floor consists of mainly English classroom. There are also some staff room on this floor.</li>
+                          <li><span className='bold_word'><h4>Third floor:</h4></span> The third floor consists of mainly English classroom. There are also some staff room on this floor.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse3(!collapse3)}>
                             {collapse3 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
@@ -127,7 +131,7 @@ function Display2() {
                             </div>}                   
                           </div>
                           
-                          <li>Fourth floor: Besides the classroom on the fourth floor, there are 2 storage rooms next to each other. One of the stores is student services while the other one is design. There are also two offices for staff next to the elevator.</li>
+                          <li><span className='bold_word'><h4>Fourth floor:</h4></span> Besides the classroom on the fourth floor, there are 2 storage rooms next to each other. One of the stores is student services while the other one is design. There are also two offices for staff next to the elevator.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse4(!collapse4)}>
                             {collapse4 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
@@ -138,7 +142,7 @@ function Display2() {
                             </div>}                   
                           </div>
                           
-                          <li>Fifth floor and sixth floor: These floors are the staff only floor. Students are not allowed to enter this area.</li>                         
+                          <li><span className='bold_word'><h4>Fifth floor and Sixth floor</h4></span> These floors are the staff only floor. Students are not allowed to enter this area.</li>                         
                       </ul>
                       <button id='B9_btn' onClick={() => {
                       handleReset();
@@ -163,7 +167,7 @@ function Display2() {
                       handleClose3();
                     }}><span>X</span></button>                      
                   </div>                                    
-                    <Modal.Header closeButton>                    
+                    <Modal.Header>                    
                       <Modal.Title className='title'>Residential Building</Modal.Title>                
                     </Modal.Header>
                     
@@ -182,7 +186,7 @@ function Display2() {
                       </div>
                       <h3>Detail:</h3>
                       <ul>
-                          <li>The first floor: The first floor is the one that is the busiest. The first floor of this structure is where Nine Restaurant is located. It is highly advised for students who want to eat some cuisine to do so here. The other section is reserved for residents only, save from Nine restaurants. The amusement room, where students can play some pool and other table games, is on your right as you enter the building. The office and two conference rooms are on the left. Moreover, this floor includes a laundry facility.</li>
+                          <li><span className='bold_word'><h4>First floor:</h4></span> The first floor is the one that is the busiest. The first floor of this structure is where Nine Restaurant is located. It is highly advised for students who want to eat some cuisine to do so here. The other section is reserved for residents only, save from Nine restaurants. The amusement room, where students can play some pool and other table games, is on your right as you enter the building. The office and two conference rooms are on the left. Moreover, this floor includes a laundry facility.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse1(!collapse1)}>
                             {collapse1 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
@@ -193,7 +197,7 @@ function Display2() {
                             </div>}                   
                           </div>
                           
-                          <li>Second floor, third floor, fourth floor, fifth floor and sixth floor: all of this floor are filled with dorm rooms. On level 2 and 3 there are 20 beds on these floor while on level 4, 5 and 6 there are 21 beds on each floor.</li>
+                          <li> <span className='bold_word'><h4>Second floor, third floor, fourth floor, fifth floor and sixth floor:</h4></span> all of these floor are filled with dorm rooms. On level 2 and 3 there are 20 beds on these floor while on level 4, 5 and 6 there are 21 beds on each floor.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse2(!collapse2)}>
                             {collapse2 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
@@ -239,15 +243,18 @@ function Display2() {
               <div className='rise__display_buildinginfo building2nd'>
                 
                 <h3>Recreation and Events Complex</h3>
-                <h4>Building 10</h4>
-                <button type="button" id='seebtn' onClick={handleShow2}>See more</button>
+                <div className='building_number'><h3>Building 10</h3></div>
+                <div className='space_between'>
+                  <button type="button" id='seebtn' onClick={handleShow2}>See more</button>
+                </div>
+                
                 
                 <Modal className='modalBackground' show={show2} onHide={handleClose2}>
                   <div className='modalContainer'>
                   <div className='modal__btn_section'>
                     <button id='modal_btn_close' onClick={handleClose2}><span>X</span></button>                      
                   </div>
-                    <Modal.Header closeButton>
+                    <Modal.Header>
                       <Modal.Title className='title'>Recreation and Events Complex</Modal.Title>
                     </Modal.Header>
                     
@@ -268,7 +275,7 @@ function Display2() {
                       
                       <h3>Detail:</h3>
                         <ul>
-                          <li>First floor: The first floor of this building is versatile. In the lobby, there is a mattress area in a corner for exercising and there are some ping pong tables on the other side, which can be used for organizing events. The largest area in REC is the sports hall which is a combined court of basketball, badminton and futsal. This is also one of the most well-known places for students that love sports. Besides that, there is a gym next to a sports hall for people to work out. In addition, there is a clinic on this floor for people with injuries or physical issues.</li>
+                          <li><span className='bold_word'><h4>First floor:</h4></span> The first floor of this building is versatile. In the lobby, there is a mattress area in a corner for exercising and there are some ping pong tables on the other side, which can be used for organizing events. The largest area in REC is the sports hall which is a combined court of basketball, badminton and futsal. This is also one of the most well-known places for students that love sports. Besides that, there is a gym next to a sports hall for people to work out. In addition, there is a clinic on this floor for people with injuries or physical issues.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse1(!collapse1)}>
                             {collapse1 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}
@@ -279,7 +286,7 @@ function Display2() {
                             </div>}                   
                           </div>
                           
-                          <li>Second floor: The second floor has some functional rooms and offices such as Student Life’s office. There are two rooms called Flemington, which have mirrors, musical instruments for musical activities. In addition, there is a bar and restaurant here, connecting to the grandstand of the sports field.</li>
+                          <li><span className='bold_word'><h4>Second floor:</h4></span> The second floor has some functional rooms and offices such as Student Life’s office. There are two rooms called Flemington, which have mirrors, musical instruments for musical activities. In addition, there is a bar and restaurant here, connecting to the grandstand of the sports field.</li>
                           <div className='more_less_section'>
                             <button id='more_less_btn' onClick={() => setCollapse2(!collapse2)}>
                             {collapse2 ? <FaAngleDoubleUp/>: <FaAngleDoubleDown/>}

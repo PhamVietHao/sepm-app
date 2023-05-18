@@ -32,9 +32,10 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+
 }
 .building1st{
-    bottom:150px;
+    bottom: 150px;
 }
 
 
@@ -128,6 +129,15 @@
     padding: 5rem 6rem;
 }
 
+.building_number{
+    font-weight: 300;
+}
+
+.space_between{
+    top: 68px;
+    position: relative;
+}
+
 @keyframes droptop{
     0%{
         transform: translateY(-100%) scale(0);
@@ -187,12 +197,14 @@
     font-weight: 400;
     margin: 1rem ;
     word-spacing: 2px;
+    line-height:25px;
 }
 
 .modal_body li{
     font-weight: 400;
     margin: 1rem ;
     word-spacing: 2px;
+    line-height:25px;
 }
 
 .modal_footer{
@@ -224,6 +236,9 @@
 .more_less_section img{
     margin-top: 1rem;
 }
+.bold_word{
+    font-weight: 500;
+}
 
 @media (max-width:1000px) {
     .rise__display{
@@ -231,6 +246,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 2rem;
+    }
+    .space_between{
+        top: 0px;
+        position: relative;
     }
 }
 
@@ -267,7 +287,7 @@
         padding:1rem 2rem ;
     }
 
-    #modal_btn_close{
+    .modal__btn_section{
         display: none;
     }
 
