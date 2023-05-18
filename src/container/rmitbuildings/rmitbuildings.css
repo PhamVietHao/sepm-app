@@ -10,14 +10,15 @@
     justify-content: center;
     flex-direction: column;
     flex: 1;
-    /* margin-right: 5rem; */
+    /* margin-right: 3rem; */
 }
 
 .rise__rmitbuildings-image{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 2;
+    flex: 1;
+    margin-left: 3rem;
 }
 
 .rise__rmitbuildings-content h1{
@@ -72,9 +73,8 @@
     .rise__rmitbuildings-content h1 {
         font-size: 30px;
     }
-    
-
-
-
+    .rise__rmitbuildings-image{
+        margin-left: 0rem;
+    }
 }
 
