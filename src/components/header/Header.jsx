@@ -33,7 +33,11 @@ function Header() {
            </span> <span className='none_writing_animation'> Game and Chatbot features</span>
           
             </p>
-            <button type="button" id='seebtn'>Get Started</button>
+            <a href="#TEAMPROFILE">
+              <button id='seebtn' >
+                 Get Started
+              </button>
+            </a>
         </div>
         <div className='rise__header-image'>
             <img src={shield} />
