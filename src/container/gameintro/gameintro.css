@@ -5,6 +5,7 @@
     align-items: center; 
     justify-content: center;
     overflow-x:hidden ;
+    padding:5rem 6rem;
 }
 
 .rise__gameintro_header{
@@ -15,21 +16,20 @@
     line-height: 47px;
     justify-content: center;
     color: #FFFFFF;   
-    margin-top:6rem;
+    
 }
 
 .rise__gameintro_header hr{
     border: 5px solid #FF5E46;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.5rem;
     width:50%;
 }
 
 .rise__gameintro_paragraph{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 22px;
     line-height: 30px;
     margin:0 3rem ;
@@ -57,7 +57,6 @@
 
 .rise__gameintro_paragraph p{
     text-align: justify;
-    margin: 0 3rem;
 }
 
 @media (max-width:800px){
@@ -70,6 +69,10 @@
 }
     #gamebtn{
         display: none;
+    }
+    .rise__gameintro {
+        padding: 0rem 0rem;
+        margin-top: 2rem;
     }
     
 }
