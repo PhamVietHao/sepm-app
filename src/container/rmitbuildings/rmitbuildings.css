@@ -57,7 +57,7 @@
     .rise__rmitbuildings{
         display: flex;
         flex-direction: column;
-        margin: 1rem;
+        margin: 3.5rem 1rem;
     }
     
     .rise__rmitbuildings-image img{
