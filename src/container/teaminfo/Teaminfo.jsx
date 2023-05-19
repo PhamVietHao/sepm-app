@@ -45,8 +45,8 @@ function Teaminfo() {
             </div>
             <div className='social_media'>
               <a href="https://www.facebook.com/ngoc.duongvuthanh"  target="_blank"><img src={Facebook}/></a>
-              <a href="link address" target="_blank"><img src={Instagram}/></a>
-              <a href="link address" target="_blank"><img src={Linkedin}/></a>
+              <a href="https://www.instagram.com/ngoooooooc/?fbclid=IwAR3wqh2f_T3PBPnjxPVjdWGxdvEdufG-NMXYatpbxDojKmdbkjOSROS6yms" target="_blank"><img src={Instagram}/></a>
+              <a href="https://www.linkedin.com/in/ngoc-duong-vu-thanh-07b7a7270/?fbclid=IwAR3nyBPHy7ULXqIQ0CByCO0SKMTVksCxAofzXuloMMotvFXhQ2tSs-V2H2c" target="_blank"><img src={Linkedin}/></a>
             </div>
           </div>
 
@@ -79,7 +79,7 @@ function Teaminfo() {
             </div>
             <div className='social_media'>
               <a href="https://www.facebook.com/quanvlad"  target="_blank"><img src={Facebook}/></a>
-              <a href="link address" target="_blank"><img src={Instagram}/></a>
+              <a href="https://www.instagram.com/quan.vlad47/" target="_blank"><img src={Instagram}/></a>
               <a href="https://www.linkedin.com/in/quan-vladimir47/" target="_blank"><img src={Linkedin}/></a>
             </div>
           </div>
@@ -96,8 +96,8 @@ function Teaminfo() {
             </div>
             <div className='social_media'>
               <a href="https://www.facebook.com/profile.php?id=100004533015898"  target="_blank"><img src={Facebook}/></a>
-              <a href="link address" target="_blank"><img src={Instagram}/></a>
-              <a href="link address" target="_blank"><img src={Linkedin}/></a>
+              <a href="https://www.instagram.com/haoizasorcerer/" target="_blank"><img src={Instagram}/></a>
+              <a href="https://www.linkedin.com/in/pham-viet-hao-3087ba277/" target="_blank"><img src={Linkedin}/></a>
             </div>
           </div>         
         </div>
