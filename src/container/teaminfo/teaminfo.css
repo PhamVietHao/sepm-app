@@ -100,7 +100,7 @@
 }
 
 
-@media (max-width:390px) {
+@media (max-width:490px) {
     .rise__teaminfo_member_section{
         display: flex;
         flex-direction: column;
